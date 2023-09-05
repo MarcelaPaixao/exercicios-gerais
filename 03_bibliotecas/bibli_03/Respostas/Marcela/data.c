@@ -79,7 +79,9 @@ int numeroDiasMes(int mes, int ano){
 }
 
 int verificaDataValida(int dia, int mes, int ano){
-    if(dia < 1 || dia > 31 || mes < 01 || mes > 12 || ano < 1){
+    if(dia < 1 || dia > 31 || 
+       mes < 1 || mes > 12 || 
+       ano < 1){
         return 0;
     }
     else if(dia > numeroDiasMes(mes, ano)){
