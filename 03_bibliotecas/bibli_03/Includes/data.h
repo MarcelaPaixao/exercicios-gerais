@@ -65,16 +65,19 @@ int numeroDiasMes(int mes, int ano);
  * @param ano2 Ano da segunda data.
  * @return int Retorna 1 se a primeira data é maior que a segunda, -1 se a primeira data é menor que a segunda
  * e 0 se as datas são iguais.
+ * A data ser "maior" significa que ela está mais no futuro.
  */
 int comparaData(int dia1, int mes1, int ano1, int dia2, int mes2, int ano2);
 
+
 /**
- * @brief Calcula o número de dias até o mês informado.
+ * @brief Calcula o número de dias até o mês.
  * 
  * @param mes Mês a ser verificado.
- * @return int Retorna o número de dias até o mês informado desde o dia 01 de janeiro.
- */
-int calculaDiasAteMes(int mes);
+ * @param ano Ano da data.
+ * @return int Retorna o número de dias até o mês.
+*/
+int calculaDiasAteMes(int mes, int ano);
 
 /**
  * @brief Calcula a diferença em dias entre duas datas.
