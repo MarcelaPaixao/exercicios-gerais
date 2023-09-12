@@ -20,10 +20,10 @@ int main() {
     imprimeDataExtenso(dia2, mes2, ano2);
 
     ordem = comparaData(dia1, mes1, ano1, dia2, mes2, ano2);
-    if (ordem < 0) {
+    if (ordem > 0) {
         printf("A segunda data eh mais antiga\n");
     }
-    if (ordem > 0) {
+    if (ordem < 0) {
         printf("A primeira data eh mais antiga\n");
     }
     if (ordem == 0) {

@@ -91,24 +91,24 @@ int verificaDataValida(int dia, int mes, int ano){
 
 int comparaData(int dia1, int mes1, int ano1, int dia2, int mes2, int ano2){
     if(ano1 > ano2){
-        return -1;
+        return 1;
     }
     else if(ano1 < ano2){
-        return 1;
+        return -1;
     }
     else {
         if(mes1 > mes2){
-            return -1;
+            return 1;
         }
         else if(mes1 < mes2){
-            return 1;
+            return -1;
         }
         else {
             if(dia1 > dia2){
-                return -1;
+                return 1;
             }
             else if(dia1 < dia2){
-                return 1;
+                return -1;
             }
             else {
                 return 0;
@@ -136,7 +136,7 @@ int calculaDiferencaDias(int dia1, int mes1, int ano1, int dia2, int mes2, int a
     }
     
       //Caso a 1 data seja menor
-    else if(ordem > 0){
+    else if(ordem < 0){
         for(i = ano1; i < ano2; i++){
             qtdDias += calculaDiasAteMes(12, i);
         }
@@ -147,7 +147,7 @@ int calculaDiferencaDias(int dia1, int mes1, int ano1, int dia2, int mes2, int a
     }
    
       //Caso a 2 data seja maior
-    else if(ordem < 0){
+    else if(ordem > 0){
         for(i = ano2; i < ano1; i++){
             qtdDias += calculaDiasAteMes(12, i);
         }

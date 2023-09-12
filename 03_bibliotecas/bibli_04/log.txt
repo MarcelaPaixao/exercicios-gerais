@@ -145,18 +145,18 @@ RESULTADOS FINAIS
 
 ----------------------------------------------------------------------------
 Nome 0: Marcela
- - Arquivos Corretos: 3 de 3 / Nota 
- - Compilações Corretas: 6 de 6 / Nota 
- - Linkagens Corretas: 3 de 3 / Nota 
- - Resultados Corretos data: 6 de 6 / Nota 
- - Valgrinds Corretos data: 6 de 6 / Nota 
- - Resultados Corretos main: 6 de 6 / Nota 
- - Valgrinds Corretos main: 6 de 6 / Nota 
- - Resultados Corretos completo: 6 de 6 / Nota 
- - Valgrinds Corretos completo: 6 de 6 / Nota 
- - Soma das notas do Marcela: 
- - Campos Considerados: 
- - Média do Marcela: 
+ - Arquivos Corretos: 3 de 3 / Nota 10.00
+ - Compilações Corretas: 6 de 6 / Nota 10.00
+ - Linkagens Corretas: 3 de 3 / Nota 10.00
+ - Resultados Corretos data: 6 de 6 / Nota 10.00
+ - Valgrinds Corretos data: 6 de 6 / Nota 10.00
+ - Resultados Corretos main: 6 de 6 / Nota 10.00
+ - Valgrinds Corretos main: 6 de 6 / Nota 10.00
+ - Resultados Corretos completo: 6 de 6 / Nota 10.00
+ - Valgrinds Corretos completo: 6 de 6 / Nota 10.00
+ - Soma das notas do Marcela: 90.000
+ - Campos Considerados: 9
+ - Média do Marcela: 10.00
 
 ----------------------------------------------------------------------------
 
