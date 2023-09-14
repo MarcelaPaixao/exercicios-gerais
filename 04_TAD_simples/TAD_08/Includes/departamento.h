@@ -30,7 +30,7 @@ tDepartamento criaDepartamento(char* c1, char* c2, char* c3, char* nome, int m1,
  * 
  * @param depto Departamento cujos atributos serão impressos.
  */
-void imprimeAtributos (tDepartamento depto);
+void imprimeAtributosDepartamento (tDepartamento depto);
 
 /**
  * @brief Verifica se a media inserida é valida, ou seja, pertence à [0, 10].
@@ -38,7 +38,7 @@ void imprimeAtributos (tDepartamento depto);
  * @param media Valor a ser validado.
  * @return int Se é válida (1) ou não (0).
  */
-int validaMedia (int media);
+int validaMediaDepartamento (int media);
 
 /**
  * @brief Calcula o Desvio Padrão das médias por curso de um departamento.
@@ -46,7 +46,7 @@ int validaMedia (int media);
  * @param depto Departamento cujo Desvio Padrão de médias por curso deve ser calculado.
  * @return double Valor do cálculo do Desvio Padrão.
  */
-double calculaDesvioPadrao(tDepartamento depto);
+double calculaDesvioPadraoDepartamento(tDepartamento depto);
 
 /**
  * @brief Calcula a média simples das notas dos cursos do departamento.
@@ -54,6 +54,6 @@ double calculaDesvioPadrao(tDepartamento depto);
  * @param depto Departamento cuja media simples deve ser calculada.
  * @return double Valor do calculo da média simples.
  */
-double calculaMediaGeral(tDepartamento depto);
+double calculaMediaGeralDepartamento(tDepartamento depto);
 
 #endif
