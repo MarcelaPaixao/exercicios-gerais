@@ -105,15 +105,15 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Pasta main / Caso 1:
  - Arquivo de output gerado: Resultados/Marcela/main/Casos/1/result_valgrind.txt.
  - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
- - Resultado para o saida.txt: Incorreto!
+ - Resultado para o saida.txt: Ok!
  - Pasta main / Caso 2:
  - Arquivo de output gerado: Resultados/Marcela/main/Casos/2/result_valgrind.txt.
  - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
- - Resultado para o saida.txt: Incorreto!
+ - Resultado para o saida.txt: Ok!
  - Pasta main / Caso 3:
  - Arquivo de output gerado: Resultados/Marcela/main/Casos/3/result_valgrind.txt.
  - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
- - Resultado para o saida.txt: Incorreto!
+ - Resultado para o saida.txt: Ok!
  - Pasta usuario / Caso 1:
  - Arquivo de output gerado: Resultados/Marcela/usuario/Casos/1/result_valgrind.txt.
  - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
@@ -129,15 +129,15 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Pasta completo / Caso 1:
  - Arquivo de output gerado: Resultados/Marcela/completo/Casos/1/result_valgrind.txt.
  - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
- - Resultado para o saida.txt: Incorreto!
+ - Resultado para o saida.txt: Ok!
  - Pasta completo / Caso 2:
  - Arquivo de output gerado: Resultados/Marcela/completo/Casos/2/result_valgrind.txt.
  - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
- - Resultado para o saida.txt: Incorreto!
+ - Resultado para o saida.txt: Ok!
  - Pasta completo / Caso 3:
  - Arquivo de output gerado: Resultados/Marcela/completo/Casos/3/result_valgrind.txt.
  - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
- - Resultado para o saida.txt: Incorreto!
+ - Resultado para o saida.txt: Ok!
 
 #######################################
 RESULTADOS FINAIS
@@ -145,20 +145,20 @@ RESULTADOS FINAIS
 
 ----------------------------------------------------------------------------
 Nome 0: Marcela
- - Arquivos Corretos: 5 de 5 / Nota 10.00
- - Compilações Corretas: 12 de 12 / Nota 10.00
- - Linkagens Corretas: 4 de 4 / Nota 10.00
- - Resultados Corretos conta: 3 de 3 / Nota 10.00
- - Valgrinds Corretos conta: 3 de 3 / Nota 10.00
- - Resultados Corretos main: 0 de 3 / Nota 0.00
- - Valgrinds Corretos main: 3 de 3 / Nota 10.00
- - Resultados Corretos usuario: 3 de 3 / Nota 10.00
- - Valgrinds Corretos usuario: 3 de 3 / Nota 10.00
- - Resultados Corretos completo: 0 de 3 / Nota 0.00
- - Valgrinds Corretos completo: 3 de 3 / Nota 10.00
- - Soma das notas do Marcela: 90.000
- - Campos Considerados: 11
- - Média do Marcela: 8.18
+ - Arquivos Corretos: 5 de 5 / Nota 
+ - Compilações Corretas: 12 de 12 / Nota 
+ - Linkagens Corretas: 4 de 4 / Nota 
+ - Resultados Corretos conta: 3 de 3 / Nota 
+ - Valgrinds Corretos conta: 3 de 3 / Nota 
+ - Resultados Corretos main: 3 de 3 / Nota 
+ - Valgrinds Corretos main: 3 de 3 / Nota 
+ - Resultados Corretos usuario: 3 de 3 / Nota 
+ - Valgrinds Corretos usuario: 3 de 3 / Nota 
+ - Resultados Corretos completo: 3 de 3 / Nota 
+ - Valgrinds Corretos completo: 3 de 3 / Nota 
+ - Soma das notas do Marcela: 
+ - Campos Considerados: 
+ - Média do Marcela: 
 
 ----------------------------------------------------------------------------
 
