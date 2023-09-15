@@ -1,2 +1,0 @@
-Test Case: Resultados/Marcela/matrix_utils/Casos/2
-Valgrind result: allocs: 2 frees: 2 errors: 48 contexts: 8
