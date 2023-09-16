@@ -1,0 +1,4 @@
+Resultados/Marcela/data/data.c: In function ‘CalculaDiferencaDias’:
+Resultados/Marcela/data/data.c:196:43: warning: unused variable ‘mesOriginal’ [-Wunused-variable]
+  196 |     int ordem=0, qtdDias=0, i, difDias=0, mesOriginal = 0;
+      |                                           ^~~~~~~~~~~
