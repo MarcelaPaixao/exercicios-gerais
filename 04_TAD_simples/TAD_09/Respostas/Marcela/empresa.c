@@ -21,9 +21,12 @@ tEmpresa criaEmpresa(int id){
  */
 tEmpresa leEmpresa(){
     int id=0, qtdFuncionarios=0;
+    
     scanf("%d %d", &id, &qtdFuncionarios);
+    
     tEmpresa empresa = criaEmpresa(id);
     empresa.qtdFuncionarios = qtdFuncionarios;
+    
     for(int i = 0; i < qtdFuncionarios; i++){
         empresa.funcionarios[i] = leFuncionario();
     }
@@ -38,9 +41,14 @@ tEmpresa leEmpresa(){
  * @return TEmpresa empresa atualizada com a nova lista de funcionarios.
  */
 tEmpresa contrataFuncionarioEmpresa(tEmpresa empresa, tFuncionario funcionario){
-    if(nao esta cadastrado){
-        empresa.qtdFuncionarios++;
-        empresa.funcionarios[empresa.qtdFuncionarios] = funcionario;
+    for(int i = 0; i < empresa.qtdFuncionarios; i++){
+        if(getIdFuncionario(empresa.funcionarios[i]) != funcionario.id){
+            empresa.funcionarios[empresa.qtdFuncionarios] = funcionario;
+        }
+        else {
+            printf("A empresa %d ja possui um funcionario com o id %d\n", empresa.id, getIdFuncionario(funcionario));
+            empresa.qtdFuncionarios--;
+        }
     }
     return empresa;
 }
@@ -50,7 +58,10 @@ tEmpresa contrataFuncionarioEmpresa(tEmpresa empresa, tFuncionario funcionario){
  * 
  * @param empresa Empresa a ser impressa no terminal.
  */
-void imprimeEmpresa(tEmpresa empresa){ //ajustar a função de acordo com o que o pdf quer
+void imprimeEmpresa(tEmpresa empresa){ //AJUSTAR DE ACORDO COM PDF
+    for(int i = 0; i < empresa.qtdFuncionarios; i++){
+        empresa = contrataFuncionarioEmpresa(empresa, empresa.funcionarios[i]);
+    }
     printf("Empresa %d:\n", empresa.id);
     for(int i = 0; i < empresa.qtdFuncionarios; i++){
         imprimeFuncionario(empresa.funcionarios[i]);
