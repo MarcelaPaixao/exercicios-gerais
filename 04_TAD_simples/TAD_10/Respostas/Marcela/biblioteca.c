@@ -46,6 +46,7 @@ tBiblioteca adicionarLivroNaBiblioteca(tBiblioteca biblioteca, tLivros livro){
  */
 tBiblioteca removerLivroDaBiblioteca(tBiblioteca biblioteca, char *titulo){
     tLivros livro;
+    
     int encontrado=0;
     for(int i = 0; i < biblioteca.tamanho; i++){
         livro = biblioteca.livros[i];
@@ -60,6 +61,7 @@ tBiblioteca removerLivroDaBiblioteca(tBiblioteca biblioteca, char *titulo){
     else if(encontrado){
         printf("Livro removido com sucesso!\n");
         //REMOVER O LIVRO!!!!!!1
+        biblioteca.tamanho--;
     }
     return biblioteca;
 }
@@ -93,5 +95,3 @@ void listarLivrosDaBiblioteca(tBiblioteca biblioteca){
         }
     }
 }
-
-
