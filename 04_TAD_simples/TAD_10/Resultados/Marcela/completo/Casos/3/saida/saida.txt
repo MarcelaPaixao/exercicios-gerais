@@ -1,0 +1,29 @@
+Lista de operacoes:
+1 - Cadastrar livros.
+2 - Remover livros.
+3 - Listar todos os livros cadastrados.
+
+Livro adicionado com sucesso!
+Livro adicionado com sucesso!
+
+Lista de Livros na Biblioteca:
+Titulo: òÿþ
+Autor: 
+Ano de Publicacao: 0
+Titulo: Dom
+Autor: Casmurro
+Ano de Publicacao: 2003
+Livro adicionado com sucesso!
+Livro adicionado com sucesso!
+Livro removido com sucesso!
+
+Lista de Livros na Biblioteca:
+Titulo: òÿþ
+Autor: 
+Ano de Publicacao: 0
+Titulo: Dom
+Autor: Casmurro
+Ano de Publicacao: 2003
+Titulo: òÿþ
+Autor: 
+Ano de Publicacao: 67351264
