@@ -51,6 +51,7 @@ int main(){
         //Relatório geral
         else if(option == 4){
             for(i = 0; i < qtdLojas; i++){
+                lojas[i] = CalculaLucro(lojas[i]);
                 ImprimeRelatorioLoja(lojas[i]);
             } 
         }

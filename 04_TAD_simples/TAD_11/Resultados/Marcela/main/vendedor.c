@@ -58,23 +58,23 @@ float GetSalario(tVendedor vendedor){
 }
 
 /**
- * @brief Obtém a comissão de um vendedor.
- * 
- * @param vendedor Estrutura do tipo tVendedor contendo os dados do vendedor.
- * @return float Retorna a comissão do vendedor.
- */
-float GetComissao(tVendedor vendedor){
-    return vendedor.prct_comissao;
-}
-
-/**
  * @brief Obtém o total vendido por um vendedor.
  * 
  * @param vendedor Estrutura do tipo tVendedor contendo os dados do vendedor.
  * @return float Retorna o total vendido pelo vendedor.
  */
 float GetTotalVendido(tVendedor vendedor){
-    return vendedor.valor_vendido*vendedor.prct_comissao;
+    return vendedor.valor_vendido;
+}
+
+/**
+ * @brief Obtém a comissão de um vendedor.
+ * 
+ * @param vendedor Estrutura do tipo tVendedor contendo os dados do vendedor.
+ * @return float Retorna a comissão do vendedor.
+ */
+float GetComissao(tVendedor vendedor){
+    return vendedor.prct_comissao * vendedor.valor_vendido;
 }
 
 /**

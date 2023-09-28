@@ -55,15 +55,13 @@ tLoja ContrataVendedor(tLoja loja, tVendedor vendedor){
  * @return tLoja Retorna a estrutura do tipo tLoja atualizada com a venda registrada.
  */
 tLoja RegistraVenda(tLoja loja, char nome[50], float valor){
-    int i, idxVendedor = -1;
-    for(i = 0; i < loja.totalVendedores; i++){
+    for(int i = 0; i < loja.totalVendedores; i++){
         if(VerificaNomeVendedor(loja.vendedores[i], nome)){
-            idxVendedor = i;
+            loja.vendedores[i] = ContabilizaVenda(loja.vendedores[i], valor);
+            loja.lucro += valor;
             break;
         }
     }
-    loja.lucro += valor;
-    loja.vendedores[idxVendedor] = ContabilizaVenda(loja.vendedores[idxVendedor], valor);
     return loja;
 }
 
@@ -88,8 +86,7 @@ tLoja CalculaLucro(tLoja loja){
  * @param loja Estrutura do tipo tLoja contendo os dados da loja.
  */
 void ImprimeRelatorioLoja(tLoja loja){
-    loja = CalculaLucro(loja);
-    printf("Loja %d: Lucro total: R$%.2f\n", loja.id, loja.lucro);
+    printf("Loja %d: Lucro total: R$ %.2f\n", loja.id, loja.lucro);
     for(int i = 0; i < loja.totalVendedores; i++){
         ImprimeRelatorioVendedor(loja.vendedores[i]);
     }
