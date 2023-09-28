@@ -1,0 +1,7 @@
+ATRIBUTOS:
+Departamento => CT
+diretor => Luizcurso1 => EngComputacao, media1 => 9curso2 => EngProducao, media2 => 7curso3 => EngEletrica, media3 => 6media geral => 18070120421771532304384.00ATRIBUTOS:
+Departamento => CCJE
+diretor => Joanacurso1 => Direito, media1 => 5curso2 => Administracao, media2 => 8curso3 => Economia, media3 => 4media geral => 18070120421771532304384.00ATRIBUTOS:
+Departamento => CCE
+diretor => Heliocurso1 => Matematica, media1 => 6curso2 => Fisica, media2 => 5curso3 => Estatistica, media3 => 7media geral => 18070120421771532304384.00

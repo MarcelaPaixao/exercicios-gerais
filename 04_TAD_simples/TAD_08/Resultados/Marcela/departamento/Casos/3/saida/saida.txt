@@ -1,0 +1,19 @@
+ATRIBUTOS:
+Departamento => CCAE
+diretor => Glauciocurso1 => EngAlimentos, media1 => 4curso2 => Zootecnia, media2 => 10curso3 => MedVeterinaria, media3 => 2media geral => 0.00ATRIBUTOS:
+Departamento => CCS
+diretor => Claudiacurso1 => Medicina, media1 => 9curso2 => Enfermagem, media2 => 7curso3 => Nutricao, media3 => 6media geral => 0.00ATRIBUTOS:
+Departamento => CAr
+diretor => Fatimacurso1 => ArquiteturaEUrbanismo, media1 => 6curso2 => ArtesVisuais, media2 => 5curso3 => Jornalismo, media3 => 7media geral => 0.00ATRIBUTOS:
+Departamento => CCHN
+diretor => Jorgecurso1 => Geografia, media1 => 5curso2 => Psicologia, media2 => 8curso3 => LetrasLibras, media3 => 4media geral => 0.00ATRIBUTOS:
+Departamento => CEUNES
+diretor => Luanacurso1 => EngQuimica, media1 => 8curso2 => Pedagogia, media2 => 6curso3 => Agronomia, media3 => 7media geral => 0.00ATRIBUTOS:
+Departamento => SEAD
+diretor => Mateuscurso1 => Biblioteconomia, media1 => 9curso2 => Administracao, media2 => 6curso3 => CienciasContabeis, media3 => 10media geral => 0.00ATRIBUTOS:
+Departamento => CT
+diretor => Luizcurso1 => EngComputacao, media1 => 9curso2 => EngProducao, media2 => 5curso3 => EngEletrica, media3 => 6media geral => 0.00ATRIBUTOS:
+Departamento => CCJE
+diretor => Joanacurso1 => Direito, media1 => 2curso2 => Administracao, media2 => 5curso3 => Economia, media3 => 7media geral => 0.00ATRIBUTOS:
+Departamento => CCE
+diretor => Heliocurso1 => Matematica, media1 => 5curso2 => Fisica, media2 => 1curso3 => Estatistica, media3 => 4media geral => 0.00
