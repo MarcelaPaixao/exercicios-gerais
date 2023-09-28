@@ -1,0 +1,9 @@
+Loja 1: Lucro total: R$2950.00
+	Arthur > Total vendido: R$1050.00
+		Total recebido: R$1500.20
+	Matheus > Total vendido: R$416.00
+		Total recebido: R$2500.08
+Loja 2: Lucro total: R$-9000.00
+	Joao > Total vendido: R$75.00
+		Total recebido: R$4000.05
+Loja 3: Lucro total: R$-8000.00
