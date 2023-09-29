@@ -1,2 +1,496 @@
-Test Case: Resultados/Marcela/departamento/Casos/2
-Valgrind result: allocs: 2 frees: 2 errors: 525 contexts: 57
+==16273== Memcheck, a memory error detector
+==16273== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==16273== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==16273== Command: Resultados/Marcela/departamento/prog Resultados/Marcela/departamento/Casos/2
+==16273== Parent PID: 16272
+==16273== 
+==16273== Conditional jump or move depends on uninitialised value(s)
+==16273==    at 0x109676: ordenaPorMediaDepartamentos (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273==    by 0x109B3D: main (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273== 
+==16273== Conditional jump or move depends on uninitialised value(s)
+==16273==    at 0x49A1D08: __printf_fp_l (printf_fp.c:396)
+==16273==    by 0x49BD9AC: __printf_fp_spec (vfprintf-internal.c:354)
+==16273==    by 0x49BD9AC: __vfprintf_internal (vfprintf-internal.c:1558)
+==16273==    by 0x49A781E: printf (printf.c:33)
+==16273==    by 0x1094C2: imprimeAtributosDepartamento (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273==    by 0x109B89: main (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273== 
+==16273== Conditional jump or move depends on uninitialised value(s)
+==16273==    at 0x49A1D22: __printf_fp_l (printf_fp.c:396)
+==16273==    by 0x49BD9AC: __printf_fp_spec (vfprintf-internal.c:354)
+==16273==    by 0x49BD9AC: __vfprintf_internal (vfprintf-internal.c:1558)
+==16273==    by 0x49A781E: printf (printf.c:33)
+==16273==    by 0x1094C2: imprimeAtributosDepartamento (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273==    by 0x109B89: main (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273== 
+==16273== Conditional jump or move depends on uninitialised value(s)
+==16273==    at 0x499D55A: __mpn_extract_double (dbl2mpn.c:56)
+==16273==    by 0x49A2016: __printf_fp_l (printf_fp.c:396)
+==16273==    by 0x49BD9AC: __printf_fp_spec (vfprintf-internal.c:354)
+==16273==    by 0x49BD9AC: __vfprintf_internal (vfprintf-internal.c:1558)
+==16273==    by 0x49A781E: printf (printf.c:33)
+==16273==    by 0x1094C2: imprimeAtributosDepartamento (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273==    by 0x109B89: main (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273== 
+==16273== Conditional jump or move depends on uninitialised value(s)
+==16273==    at 0x49A2066: __printf_fp_l (printf_fp.c:437)
+==16273==    by 0x49BD9AC: __printf_fp_spec (vfprintf-internal.c:354)
+==16273==    by 0x49BD9AC: __vfprintf_internal (vfprintf-internal.c:1558)
+==16273==    by 0x49A781E: printf (printf.c:33)
+==16273==    by 0x1094C2: imprimeAtributosDepartamento (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273==    by 0x109B89: main (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273== 
+==16273== Conditional jump or move depends on uninitialised value(s)
+==16273==    at 0x49A2089: __printf_fp_l (printf_fp.c:437)
+==16273==    by 0x49BD9AC: __printf_fp_spec (vfprintf-internal.c:354)
+==16273==    by 0x49BD9AC: __vfprintf_internal (vfprintf-internal.c:1558)
+==16273==    by 0x49A781E: printf (printf.c:33)
+==16273==    by 0x1094C2: imprimeAtributosDepartamento (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273==    by 0x109B89: main (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273== 
+==16273== Use of uninitialised value of size 8
+==16273==    at 0x49A2954: __printf_fp_l (printf_fp.c:437)
+==16273==    by 0x49BD9AC: __printf_fp_spec (vfprintf-internal.c:354)
+==16273==    by 0x49BD9AC: __vfprintf_internal (vfprintf-internal.c:1558)
+==16273==    by 0x49A781E: printf (printf.c:33)
+==16273==    by 0x1094C2: imprimeAtributosDepartamento (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273==    by 0x109B89: main (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273== 
+==16273== Conditional jump or move depends on uninitialised value(s)
+==16273==    at 0x49A20B9: __printf_fp_l (printf_fp.c:438)
+==16273==    by 0x49BD9AC: __printf_fp_spec (vfprintf-internal.c:354)
+==16273==    by 0x49BD9AC: __vfprintf_internal (vfprintf-internal.c:1558)
+==16273==    by 0x49A781E: printf (printf.c:33)
+==16273==    by 0x1094C2: imprimeAtributosDepartamento (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273==    by 0x109B89: main (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273== 
+==16273== Conditional jump or move depends on uninitialised value(s)
+==16273==    at 0x49A20DC: __printf_fp_l (printf_fp.c:438)
+==16273==    by 0x49BD9AC: __printf_fp_spec (vfprintf-internal.c:354)
+==16273==    by 0x49BD9AC: __vfprintf_internal (vfprintf-internal.c:1558)
+==16273==    by 0x49A781E: printf (printf.c:33)
+==16273==    by 0x1094C2: imprimeAtributosDepartamento (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273==    by 0x109B89: main (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273== 
+==16273== Use of uninitialised value of size 8
+==16273==    at 0x49A20DE: __printf_fp_l (printf_fp.c:438)
+==16273==    by 0x49BD9AC: __printf_fp_spec (vfprintf-internal.c:354)
+==16273==    by 0x49BD9AC: __vfprintf_internal (vfprintf-internal.c:1558)
+==16273==    by 0x49A781E: printf (printf.c:33)
+==16273==    by 0x1094C2: imprimeAtributosDepartamento (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273==    by 0x109B89: main (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273== 
+==16273== Conditional jump or move depends on uninitialised value(s)
+==16273==    at 0x49A2107: __printf_fp_l (printf_fp.c:439)
+==16273==    by 0x49BD9AC: __printf_fp_spec (vfprintf-internal.c:354)
+==16273==    by 0x49BD9AC: __vfprintf_internal (vfprintf-internal.c:1558)
+==16273==    by 0x49A781E: printf (printf.c:33)
+==16273==    by 0x1094C2: imprimeAtributosDepartamento (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273==    by 0x109B89: main (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273== 
+==16273== Conditional jump or move depends on uninitialised value(s)
+==16273==    at 0x49A212C: __printf_fp_l (printf_fp.c:439)
+==16273==    by 0x49BD9AC: __printf_fp_spec (vfprintf-internal.c:354)
+==16273==    by 0x49BD9AC: __vfprintf_internal (vfprintf-internal.c:1558)
+==16273==    by 0x49A781E: printf (printf.c:33)
+==16273==    by 0x1094C2: imprimeAtributosDepartamento (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273==    by 0x109B89: main (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273== 
+==16273== Use of uninitialised value of size 8
+==16273==    at 0x49A212E: __printf_fp_l (printf_fp.c:439)
+==16273==    by 0x49BD9AC: __printf_fp_spec (vfprintf-internal.c:354)
+==16273==    by 0x49BD9AC: __vfprintf_internal (vfprintf-internal.c:1558)
+==16273==    by 0x49A781E: printf (printf.c:33)
+==16273==    by 0x1094C2: imprimeAtributosDepartamento (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273==    by 0x109B89: main (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273== 
+==16273== Conditional jump or move depends on uninitialised value(s)
+==16273==    at 0x49A214C: __printf_fp_l (printf_fp.c:446)
+==16273==    by 0x49BD9AC: __printf_fp_spec (vfprintf-internal.c:354)
+==16273==    by 0x49BD9AC: __vfprintf_internal (vfprintf-internal.c:1558)
+==16273==    by 0x49A781E: printf (printf.c:33)
+==16273==    by 0x1094C2: imprimeAtributosDepartamento (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273==    by 0x109B89: main (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273== 
+==16273== Conditional jump or move depends on uninitialised value(s)
+==16273==    at 0x49A31ED: __printf_fp_l (printf_fp.c:649)
+==16273==    by 0x49BD9AC: __printf_fp_spec (vfprintf-internal.c:354)
+==16273==    by 0x49BD9AC: __vfprintf_internal (vfprintf-internal.c:1558)
+==16273==    by 0x49A781E: printf (printf.c:33)
+==16273==    by 0x1094C2: imprimeAtributosDepartamento (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273==    by 0x109B89: main (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273== 
+==16273== Use of uninitialised value of size 8
+==16273==    at 0x49A34DE: __printf_fp_l (printf_fp.c:665)
+==16273==    by 0x49BD9AC: __printf_fp_spec (vfprintf-internal.c:354)
+==16273==    by 0x49BD9AC: __vfprintf_internal (vfprintf-internal.c:1558)
+==16273==    by 0x49A781E: printf (printf.c:33)
+==16273==    by 0x1094C2: imprimeAtributosDepartamento (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273==    by 0x109B89: main (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273== 
+==16273== Use of uninitialised value of size 8
+==16273==    at 0x499BDBC: __mpn_lshift (lshift.S:59)
+==16273==    by 0x49A34E2: __printf_fp_l (printf_fp.c:665)
+==16273==    by 0x49BD9AC: __printf_fp_spec (vfprintf-internal.c:354)
+==16273==    by 0x49BD9AC: __vfprintf_internal (vfprintf-internal.c:1558)
+==16273==    by 0x49A781E: printf (printf.c:33)
+==16273==    by 0x1094C2: imprimeAtributosDepartamento (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273==    by 0x109B89: main (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273== 
+==16273== Use of uninitialised value of size 8
+==16273==    at 0x499BDBF: __mpn_lshift (lshift.S:60)
+==16273==    by 0x49A34E2: __printf_fp_l (printf_fp.c:665)
+==16273==    by 0x49BD9AC: __printf_fp_spec (vfprintf-internal.c:354)
+==16273==    by 0x49BD9AC: __vfprintf_internal (vfprintf-internal.c:1558)
+==16273==    by 0x49A781E: printf (printf.c:33)
+==16273==    by 0x1094C2: imprimeAtributosDepartamento (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273==    by 0x109B89: main (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273== 
+==16273== Use of uninitialised value of size 8
+==16273==    at 0x49A351F: __printf_fp_l (printf_fp.c:666)
+==16273==    by 0x49BD9AC: __printf_fp_spec (vfprintf-internal.c:354)
+==16273==    by 0x49BD9AC: __vfprintf_internal (vfprintf-internal.c:1558)
+==16273==    by 0x49A781E: printf (printf.c:33)
+==16273==    by 0x1094C2: imprimeAtributosDepartamento (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273==    by 0x109B89: main (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273== 
+==16273== Conditional jump or move depends on uninitialised value(s)
+==16273==    at 0x49A35E4: __printf_fp_l (printf_fp.c:677)
+==16273==    by 0x49BD9AC: __printf_fp_spec (vfprintf-internal.c:354)
+==16273==    by 0x49BD9AC: __vfprintf_internal (vfprintf-internal.c:1558)
+==16273==    by 0x49A781E: printf (printf.c:33)
+==16273==    by 0x1094C2: imprimeAtributosDepartamento (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273==    by 0x109B89: main (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273== 
+==16273== Conditional jump or move depends on uninitialised value(s)
+==16273==    at 0x49A35D7: __printf_fp_l (printf_fp.c:789)
+==16273==    by 0x49BD9AC: __printf_fp_spec (vfprintf-internal.c:354)
+==16273==    by 0x49BD9AC: __vfprintf_internal (vfprintf-internal.c:1558)
+==16273==    by 0x49A781E: printf (printf.c:33)
+==16273==    by 0x1094C2: imprimeAtributosDepartamento (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273==    by 0x109B89: main (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273== 
+==16273== Use of uninitialised value of size 8
+==16273==    at 0x499C478: __mpn_mul_1 (mul_1.S:36)
+==16273==    by 0x499C23C: __mpn_mul (mul.c:81)
+==16273==    by 0x49A3622: __printf_fp_l (printf_fp.c:690)
+==16273==    by 0x49BD9AC: __printf_fp_spec (vfprintf-internal.c:354)
+==16273==    by 0x49BD9AC: __vfprintf_internal (vfprintf-internal.c:1558)
+==16273==    by 0x49A781E: printf (printf.c:33)
+==16273==    by 0x1094C2: imprimeAtributosDepartamento (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273==    by 0x109B89: main (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273== 
+==16273== Use of uninitialised value of size 8
+==16273==    at 0x499C503: __mpn_mul_1 (mul_1.S:85)
+==16273==    by 0x499C23C: __mpn_mul (mul.c:81)
+==16273==    by 0x49A3622: __printf_fp_l (printf_fp.c:690)
+==16273==    by 0x49BD9AC: __printf_fp_spec (vfprintf-internal.c:354)
+==16273==    by 0x49BD9AC: __vfprintf_internal (vfprintf-internal.c:1558)
+==16273==    by 0x49A781E: printf (printf.c:33)
+==16273==    by 0x1094C2: imprimeAtributosDepartamento (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273==    by 0x109B89: main (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273== 
+==16273== Use of uninitialised value of size 8
+==16273==    at 0x499C572: __mpn_mul_1 (mul_1.S:117)
+==16273==    by 0x499C23C: __mpn_mul (mul.c:81)
+==16273==    by 0x49A3622: __printf_fp_l (printf_fp.c:690)
+==16273==    by 0x49BD9AC: __printf_fp_spec (vfprintf-internal.c:354)
+==16273==    by 0x49BD9AC: __vfprintf_internal (vfprintf-internal.c:1558)
+==16273==    by 0x49A781E: printf (printf.c:33)
+==16273==    by 0x1094C2: imprimeAtributosDepartamento (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273==    by 0x109B89: main (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273== 
+==16273== Use of uninitialised value of size 8
+==16273==    at 0x499C249: __mpn_mul (mul.c:83)
+==16273==    by 0x49A3622: __printf_fp_l (printf_fp.c:690)
+==16273==    by 0x49BD9AC: __printf_fp_spec (vfprintf-internal.c:354)
+==16273==    by 0x49BD9AC: __vfprintf_internal (vfprintf-internal.c:1558)
+==16273==    by 0x49A781E: printf (printf.c:33)
+==16273==    by 0x1094C2: imprimeAtributosDepartamento (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273==    by 0x109B89: main (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273== 
+==16273== Use of uninitialised value of size 8
+==16273==    at 0x499B58C: __mpn_addmul_1 (addmul_1.S:40)
+==16273==    by 0x1FFEFFE6BF: ???
+==16273==    by 0x49A3622: __printf_fp_l (printf_fp.c:690)
+==16273==    by 0x49BD9AC: __printf_fp_spec (vfprintf-internal.c:354)
+==16273==    by 0x49BD9AC: __vfprintf_internal (vfprintf-internal.c:1558)
+==16273==    by 0x49A781E: printf (printf.c:33)
+==16273==    by 0x1094C2: imprimeAtributosDepartamento (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273==    by 0x109B89: main (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273== 
+==16273== Use of uninitialised value of size 8
+==16273==    at 0x499B58F: __mpn_addmul_1 (addmul_1.S:41)
+==16273==    by 0x1FFEFFE6BF: ???
+==16273==    by 0x49A3622: __printf_fp_l (printf_fp.c:690)
+==16273==    by 0x49BD9AC: __printf_fp_spec (vfprintf-internal.c:354)
+==16273==    by 0x49BD9AC: __vfprintf_internal (vfprintf-internal.c:1558)
+==16273==    by 0x49A781E: printf (printf.c:33)
+==16273==    by 0x1094C2: imprimeAtributosDepartamento (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273==    by 0x109B89: main (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273== 
+==16273== Use of uninitialised value of size 8
+==16273==    at 0x499C2B4: __mpn_mul (mul.c:98)
+==16273==    by 0x49A3622: __printf_fp_l (printf_fp.c:690)
+==16273==    by 0x49BD9AC: __printf_fp_spec (vfprintf-internal.c:354)
+==16273==    by 0x49BD9AC: __vfprintf_internal (vfprintf-internal.c:1558)
+==16273==    by 0x49A781E: printf (printf.c:33)
+==16273==    by 0x1094C2: imprimeAtributosDepartamento (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273==    by 0x109B89: main (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273== 
+==16273== Conditional jump or move depends on uninitialised value(s)
+==16273==    at 0x499C297: __mpn_mul (mul.c:88)
+==16273==    by 0x49A3622: __printf_fp_l (printf_fp.c:690)
+==16273==    by 0x49BD9AC: __printf_fp_spec (vfprintf-internal.c:354)
+==16273==    by 0x49BD9AC: __vfprintf_internal (vfprintf-internal.c:1558)
+==16273==    by 0x49A781E: printf (printf.c:33)
+==16273==    by 0x1094C2: imprimeAtributosDepartamento (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273==    by 0x109B89: main (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273== 
+==16273== Conditional jump or move depends on uninitialised value(s)
+==16273==    at 0x49A3564: __printf_fp_l (printf_fp.c:694)
+==16273==    by 0x49BD9AC: __printf_fp_spec (vfprintf-internal.c:354)
+==16273==    by 0x49BD9AC: __vfprintf_internal (vfprintf-internal.c:1558)
+==16273==    by 0x49A781E: printf (printf.c:33)
+==16273==    by 0x1094C2: imprimeAtributosDepartamento (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273==    by 0x109B89: main (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273== 
+==16273== Use of uninitialised value of size 8
+==16273==    at 0x49A3586: __printf_fp_l (printf_fp.c:697)
+==16273==    by 0x49BD9AC: __printf_fp_spec (vfprintf-internal.c:354)
+==16273==    by 0x49BD9AC: __vfprintf_internal (vfprintf-internal.c:1558)
+==16273==    by 0x49A781E: printf (printf.c:33)
+==16273==    by 0x1094C2: imprimeAtributosDepartamento (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273==    by 0x109B89: main (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273== 
+==16273== Conditional jump or move depends on uninitialised value(s)
+==16273==    at 0x49A35AF: __printf_fp_l (printf_fp.c:706)
+==16273==    by 0x49BD9AC: __printf_fp_spec (vfprintf-internal.c:354)
+==16273==    by 0x49BD9AC: __vfprintf_internal (vfprintf-internal.c:1558)
+==16273==    by 0x49A781E: printf (printf.c:33)
+==16273==    by 0x1094C2: imprimeAtributosDepartamento (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273==    by 0x109B89: main (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273== 
+==16273== Conditional jump or move depends on uninitialised value(s)
+==16273==    at 0x49A35BB: __printf_fp_l (printf_fp.c:728)
+==16273==    by 0x49BD9AC: __printf_fp_spec (vfprintf-internal.c:354)
+==16273==    by 0x49BD9AC: __vfprintf_internal (vfprintf-internal.c:1558)
+==16273==    by 0x49A781E: printf (printf.c:33)
+==16273==    by 0x1094C2: imprimeAtributosDepartamento (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273==    by 0x109B89: main (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273== 
+==16273== Use of uninitialised value of size 8
+==16273==    at 0x49A366C: __printf_fp_l (printf_fp.c:745)
+==16273==    by 0x49BD9AC: __printf_fp_spec (vfprintf-internal.c:354)
+==16273==    by 0x49BD9AC: __vfprintf_internal (vfprintf-internal.c:1558)
+==16273==    by 0x49A781E: printf (printf.c:33)
+==16273==    by 0x1094C2: imprimeAtributosDepartamento (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273==    by 0x109B89: main (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273== 
+==16273== Conditional jump or move depends on uninitialised value(s)
+==16273==    at 0x49A3672: __printf_fp_l (printf_fp.c:745)
+==16273==    by 0x49BD9AC: __printf_fp_spec (vfprintf-internal.c:354)
+==16273==    by 0x49BD9AC: __vfprintf_internal (vfprintf-internal.c:1558)
+==16273==    by 0x49A781E: printf (printf.c:33)
+==16273==    by 0x1094C2: imprimeAtributosDepartamento (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273==    by 0x109B89: main (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273== 
+==16273== Use of uninitialised value of size 8
+==16273==    at 0x49A3688: __printf_fp_l (printf_fp.c:745)
+==16273==    by 0x49BD9AC: __printf_fp_spec (vfprintf-internal.c:354)
+==16273==    by 0x49BD9AC: __vfprintf_internal (vfprintf-internal.c:1558)
+==16273==    by 0x49A781E: printf (printf.c:33)
+==16273==    by 0x1094C2: imprimeAtributosDepartamento (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273==    by 0x109B89: main (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273== 
+==16273== Conditional jump or move depends on uninitialised value(s)
+==16273==    at 0x49A36AB: __printf_fp_l (printf_fp.c:745)
+==16273==    by 0x49BD9AC: __printf_fp_spec (vfprintf-internal.c:354)
+==16273==    by 0x49BD9AC: __vfprintf_internal (vfprintf-internal.c:1558)
+==16273==    by 0x49A781E: printf (printf.c:33)
+==16273==    by 0x1094C2: imprimeAtributosDepartamento (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273==    by 0x109B89: main (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273== 
+==16273== Conditional jump or move depends on uninitialised value(s)
+==16273==    at 0x49A36B1: __printf_fp_l (printf_fp.c:746)
+==16273==    by 0x49BD9AC: __printf_fp_spec (vfprintf-internal.c:354)
+==16273==    by 0x49BD9AC: __vfprintf_internal (vfprintf-internal.c:1558)
+==16273==    by 0x49A781E: printf (printf.c:33)
+==16273==    by 0x1094C2: imprimeAtributosDepartamento (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273==    by 0x109B89: main (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273== 
+==16273== Conditional jump or move depends on uninitialised value(s)
+==16273==    at 0x49A3CC2: __printf_fp_l (printf_fp.c:767)
+==16273==    by 0x49BD9AC: __printf_fp_spec (vfprintf-internal.c:354)
+==16273==    by 0x49BD9AC: __vfprintf_internal (vfprintf-internal.c:1558)
+==16273==    by 0x49A781E: printf (printf.c:33)
+==16273==    by 0x1094C2: imprimeAtributosDepartamento (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273==    by 0x109B89: main (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273== 
+==16273== Use of uninitialised value of size 8
+==16273==    at 0x499BF10: __mpn_rshift (rshift.S:80)
+==16273==    by 0x49A3CDD: __printf_fp_l (printf_fp.c:779)
+==16273==    by 0x49BD9AC: __printf_fp_spec (vfprintf-internal.c:354)
+==16273==    by 0x49BD9AC: __vfprintf_internal (vfprintf-internal.c:1558)
+==16273==    by 0x49A781E: printf (printf.c:33)
+==16273==    by 0x1094C2: imprimeAtributosDepartamento (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273==    by 0x109B89: main (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273== 
+==16273== Use of uninitialised value of size 8
+==16273==    at 0x499BF70: __mpn_rshift (rshift.S:108)
+==16273==    by 0x49A3CDD: __printf_fp_l (printf_fp.c:779)
+==16273==    by 0x49BD9AC: __printf_fp_spec (vfprintf-internal.c:354)
+==16273==    by 0x49BD9AC: __vfprintf_internal (vfprintf-internal.c:1558)
+==16273==    by 0x49A781E: printf (printf.c:33)
+==16273==    by 0x1094C2: imprimeAtributosDepartamento (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273==    by 0x109B89: main (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273== 
+==16273== Use of uninitialised value of size 8
+==16273==    at 0x499C4EC: __mpn_mul_1 (mul_1.S:77)
+==16273==    by 0x499C23C: __mpn_mul (mul.c:81)
+==16273==    by 0x49A3622: __printf_fp_l (printf_fp.c:690)
+==16273==    by 0x49BD9AC: __printf_fp_spec (vfprintf-internal.c:354)
+==16273==    by 0x49BD9AC: __vfprintf_internal (vfprintf-internal.c:1558)
+==16273==    by 0x49A781E: printf (printf.c:33)
+==16273==    by 0x1094C2: imprimeAtributosDepartamento (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273==    by 0x109B89: main (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273== 
+==16273== Use of uninitialised value of size 8
+==16273==    at 0x499C54D: __mpn_mul_1 (mul_1.S:106)
+==16273==    by 0x499C23C: __mpn_mul (mul.c:81)
+==16273==    by 0x49A3622: __printf_fp_l (printf_fp.c:690)
+==16273==    by 0x49BD9AC: __printf_fp_spec (vfprintf-internal.c:354)
+==16273==    by 0x49BD9AC: __vfprintf_internal (vfprintf-internal.c:1558)
+==16273==    by 0x49A781E: printf (printf.c:33)
+==16273==    by 0x1094C2: imprimeAtributosDepartamento (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273==    by 0x109B89: main (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273== 
+==16273== Conditional jump or move depends on uninitialised value(s)
+==16273==    at 0x49A4212: __printf_fp_l (printf_fp.c:746)
+==16273==    by 0x49BD9AC: __printf_fp_spec (vfprintf-internal.c:354)
+==16273==    by 0x49BD9AC: __vfprintf_internal (vfprintf-internal.c:1558)
+==16273==    by 0x49A781E: printf (printf.c:33)
+==16273==    by 0x1094C2: imprimeAtributosDepartamento (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273==    by 0x109B89: main (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273== 
+==16273== Conditional jump or move depends on uninitialised value(s)
+==16273==    at 0x49A4227: __printf_fp_l (printf_fp.c:756)
+==16273==    by 0x49BD9AC: __printf_fp_spec (vfprintf-internal.c:354)
+==16273==    by 0x49BD9AC: __vfprintf_internal (vfprintf-internal.c:1558)
+==16273==    by 0x49A781E: printf (printf.c:33)
+==16273==    by 0x1094C2: imprimeAtributosDepartamento (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273==    by 0x109B89: main (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273== 
+==16273== Conditional jump or move depends on uninitialised value(s)
+==16273==    at 0x49A3B5C: __printf_fp_l (printf_fp.c:791)
+==16273==    by 0x49BD9AC: __printf_fp_spec (vfprintf-internal.c:354)
+==16273==    by 0x49BD9AC: __vfprintf_internal (vfprintf-internal.c:1558)
+==16273==    by 0x49A781E: printf (printf.c:33)
+==16273==    by 0x1094C2: imprimeAtributosDepartamento (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273==    by 0x109B89: main (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273== 
+==16273== Use of uninitialised value of size 8
+==16273==    at 0x499C478: __mpn_mul_1 (mul_1.S:36)
+==16273==    by 0x49A3B7D: __printf_fp_l (printf_fp.c:795)
+==16273==    by 0x49BD9AC: __printf_fp_spec (vfprintf-internal.c:354)
+==16273==    by 0x49BD9AC: __vfprintf_internal (vfprintf-internal.c:1558)
+==16273==    by 0x49A781E: printf (printf.c:33)
+==16273==    by 0x1094C2: imprimeAtributosDepartamento (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273==    by 0x109B89: main (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273== 
+==16273== Use of uninitialised value of size 8
+==16273==    at 0x499C4EC: __mpn_mul_1 (mul_1.S:77)
+==16273==    by 0x49A3B7D: __printf_fp_l (printf_fp.c:795)
+==16273==    by 0x49BD9AC: __printf_fp_spec (vfprintf-internal.c:354)
+==16273==    by 0x49BD9AC: __vfprintf_internal (vfprintf-internal.c:1558)
+==16273==    by 0x49A781E: printf (printf.c:33)
+==16273==    by 0x1094C2: imprimeAtributosDepartamento (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273==    by 0x109B89: main (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273== 
+==16273== Use of uninitialised value of size 8
+==16273==    at 0x499C54D: __mpn_mul_1 (mul_1.S:106)
+==16273==    by 0x49A3B7D: __printf_fp_l (printf_fp.c:795)
+==16273==    by 0x49BD9AC: __printf_fp_spec (vfprintf-internal.c:354)
+==16273==    by 0x49BD9AC: __vfprintf_internal (vfprintf-internal.c:1558)
+==16273==    by 0x49A781E: printf (printf.c:33)
+==16273==    by 0x1094C2: imprimeAtributosDepartamento (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273==    by 0x109B89: main (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273== 
+==16273== Use of uninitialised value of size 8
+==16273==    at 0x499C572: __mpn_mul_1 (mul_1.S:117)
+==16273==    by 0x49A3B7D: __printf_fp_l (printf_fp.c:795)
+==16273==    by 0x49BD9AC: __printf_fp_spec (vfprintf-internal.c:354)
+==16273==    by 0x49BD9AC: __vfprintf_internal (vfprintf-internal.c:1558)
+==16273==    by 0x49A781E: printf (printf.c:33)
+==16273==    by 0x1094C2: imprimeAtributosDepartamento (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273==    by 0x109B89: main (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273== 
+==16273== Use of uninitialised value of size 8
+==16273==    at 0x49A3B9C: __printf_fp_l (printf_fp.c:799)
+==16273==    by 0x49BD9AC: __printf_fp_spec (vfprintf-internal.c:354)
+==16273==    by 0x49BD9AC: __vfprintf_internal (vfprintf-internal.c:1558)
+==16273==    by 0x49A781E: printf (printf.c:33)
+==16273==    by 0x1094C2: imprimeAtributosDepartamento (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273==    by 0x109B89: main (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273== 
+==16273== Conditional jump or move depends on uninitialised value(s)
+==16273==    at 0x49A3BA8: __printf_fp_l (printf_fp.c:800)
+==16273==    by 0x49BD9AC: __printf_fp_spec (vfprintf-internal.c:354)
+==16273==    by 0x49BD9AC: __vfprintf_internal (vfprintf-internal.c:1558)
+==16273==    by 0x49A781E: printf (printf.c:33)
+==16273==    by 0x1094C2: imprimeAtributosDepartamento (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273==    by 0x109B89: main (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273== 
+==16273== Use of uninitialised value of size 8
+==16273==    at 0x499BF10: __mpn_rshift (rshift.S:80)
+==16273==    by 0x49A4160: __printf_fp_l (printf_fp.c:808)
+==16273==    by 0x49BD9AC: __printf_fp_spec (vfprintf-internal.c:354)
+==16273==    by 0x49BD9AC: __vfprintf_internal (vfprintf-internal.c:1558)
+==16273==    by 0x49A781E: printf (printf.c:33)
+==16273==    by 0x1094C2: imprimeAtributosDepartamento (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273==    by 0x109B89: main (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273== 
+==16273== Use of uninitialised value of size 8
+==16273==    at 0x499BF70: __mpn_rshift (rshift.S:108)
+==16273==    by 0x49A4160: __printf_fp_l (printf_fp.c:808)
+==16273==    by 0x49BD9AC: __printf_fp_spec (vfprintf-internal.c:354)
+==16273==    by 0x49BD9AC: __vfprintf_internal (vfprintf-internal.c:1558)
+==16273==    by 0x49A781E: printf (printf.c:33)
+==16273==    by 0x1094C2: imprimeAtributosDepartamento (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273==    by 0x109B89: main (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273== 
+==16273== Use of uninitialised value of size 8
+==16273==    at 0x49A2A6E: __printf_fp_l (printf_fp.c:991)
+==16273==    by 0x49BD9AC: __printf_fp_spec (vfprintf-internal.c:354)
+==16273==    by 0x49BD9AC: __vfprintf_internal (vfprintf-internal.c:1558)
+==16273==    by 0x49A781E: printf (printf.c:33)
+==16273==    by 0x1094C2: imprimeAtributosDepartamento (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273==    by 0x109B89: main (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273== 
+==16273== Conditional jump or move depends on uninitialised value(s)
+==16273==    at 0x49A2A74: __printf_fp_l (printf_fp.c:991)
+==16273==    by 0x49BD9AC: __printf_fp_spec (vfprintf-internal.c:354)
+==16273==    by 0x49BD9AC: __vfprintf_internal (vfprintf-internal.c:1558)
+==16273==    by 0x49A781E: printf (printf.c:33)
+==16273==    by 0x1094C2: imprimeAtributosDepartamento (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273==    by 0x109B89: main (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273== 
+==16273== Conditional jump or move depends on uninitialised value(s)
+==16273==    at 0x49A2D25: __printf_fp_l (printf_fp.c:1166)
+==16273==    by 0x49BD9AC: __printf_fp_spec (vfprintf-internal.c:354)
+==16273==    by 0x49BD9AC: __vfprintf_internal (vfprintf-internal.c:1558)
+==16273==    by 0x49A781E: printf (printf.c:33)
+==16273==    by 0x1094C2: imprimeAtributosDepartamento (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273==    by 0x109B89: main (in /home/marcela_paixao/PROG2/exercicios-gerais/04_TAD_simples/TAD_08/Resultados/Marcela/departamento/prog)
+==16273== 
+==16273== 
+==16273== HEAP SUMMARY:
+==16273==     in use at exit: 0 bytes in 0 blocks
+==16273==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==16273== 
+==16273== All heap blocks were freed -- no leaks are possible
+==16273== 
+==16273== Use --track-origins=yes to see where uninitialised values come from
+==16273== For lists of detected and suppressed errors, rerun with: -s
+==16273== ERROR SUMMARY: 525 errors from 57 contexts (suppressed: 0 from 0)

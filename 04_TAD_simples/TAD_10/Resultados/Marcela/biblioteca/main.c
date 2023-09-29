@@ -16,13 +16,13 @@ int main(){
     printf("3 - Listar todos os livros cadastrados.\n\n");
 
     while(N){
-        scanf("%d", &option);
+        scanf("%d%*c", &option);
         if(option == 1){
             livro = lerLivro();
             biblioteca = adicionarLivroNaBiblioteca(biblioteca, livro);
         }
         else if(option == 2){
-            scanf("%s", tituloLivro);
+            scanf("%s%*c", tituloLivro);
             biblioteca = removerLivroDaBiblioteca(biblioteca, tituloLivro);
         }
         else if(option == 3){

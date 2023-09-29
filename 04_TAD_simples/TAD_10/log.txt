@@ -164,28 +164,28 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o saida.txt: Ok!
  - Pasta completo / Caso 1:
  - Arquivo de output gerado: Resultados/Marcela/completo/Casos/1/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 2, frees: 2, errors: 33.
- - Resultado para o saida.txt: Incorreto!
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
  - Pasta completo / Caso 2:
  - Arquivo de output gerado: Resultados/Marcela/completo/Casos/2/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 2, frees: 2, errors: 25.
- - Resultado para o saida.txt: Incorreto!
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
  - Pasta completo / Caso 3:
  - Arquivo de output gerado: Resultados/Marcela/completo/Casos/3/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 2, frees: 2, errors: 56.
- - Resultado para o saida.txt: Incorreto!
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
  - Pasta completo / Caso 4:
  - Arquivo de output gerado: Resultados/Marcela/completo/Casos/4/result_valgrind.txt.
  - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
- - Resultado para o saida.txt: Incorreto!
+ - Resultado para o saida.txt: Ok!
  - Pasta completo / Caso 5:
  - Arquivo de output gerado: Resultados/Marcela/completo/Casos/5/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 2, frees: 2, errors: 13.
- - Resultado para o saida.txt: Incorreto!
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
  - Pasta completo / Caso 6:
  - Arquivo de output gerado: Resultados/Marcela/completo/Casos/6/result_valgrind.txt.
  - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
- - Resultado para o saida.txt: Incorreto!
+ - Resultado para o saida.txt: Ok!
 
 #######################################
 RESULTADOS FINAIS
@@ -202,11 +202,11 @@ Nome 0: Marcela
  - Valgrinds Corretos livro: 6 de 6 / Nota 10.00
  - Resultados Corretos main: 6 de 6 / Nota 10.00
  - Valgrinds Corretos main: 6 de 6 / Nota 10.00
- - Resultados Corretos completo: 0 de 6 / Nota 0.00
- - Valgrinds Corretos completo: 2 de 6 / Nota 3.33
- - Soma das notas do Marcela: 93.330
+ - Resultados Corretos completo: 6 de 6 / Nota 10.00
+ - Valgrinds Corretos completo: 6 de 6 / Nota 10.00
+ - Soma das notas do Marcela: 110.000
  - Campos Considerados: 11
- - Média do Marcela: 8.48
+ - Média do Marcela: 10.00
 
 ----------------------------------------------------------------------------
 
