@@ -1,7 +1,0 @@
-/usr/bin/ld: Resultados/Marcela/completo/main.o: in function `main':
-main.c:(.text+0x23): undefined reference to `LeData'
-/usr/bin/ld: main.c:(.text+0x2f): undefined reference to `LeData'
-/usr/bin/ld: main.c:(.text+0x4b): undefined reference to `ImprimeData'
-/usr/bin/ld: main.c:(.text+0x61): undefined reference to `AvancaParaDiaSeguinte'
-/usr/bin/ld: main.c:(.text+0x74): undefined reference to `EhIgual'
-collect2: error: ld returned 1 exit status

@@ -1,1 +1,5 @@
-valgrind: Resultados/Marcela/data/prog: No such file or directory
+'30/12/2000'
+'31/12/2000'
+'01/01/2001'
+'02/01/2001'
+'03/01/2001'

@@ -13,9 +13,30 @@
  * @param data Ponteiro para a estrutura tData que será inicializada.
  */
 void InicializaDataParam( int dia, int mes, int ano, tData *data){
-    data->dia = dia;
-    data->mes = mes;
+    int qtdDias=0;
+    
     data->ano = ano;
+    
+    if(mes > 12){
+        data->mes = 12;
+    }
+    else if(mes < 1){
+        data->mes = 1;
+    }
+    else {
+        data->mes = mes;
+    }
+    
+    qtdDias = InformaQtdDiasNoMes(data);
+    if(dia > qtdDias){
+        data->dia = qtdDias;
+    }
+    else if(dia < 1){
+        data->dia = 1;
+    }
+    else {
+        data->dia = dia;
+    }
 }
 
 /**
@@ -26,9 +47,9 @@ void InicializaDataParam( int dia, int mes, int ano, tData *data){
  * @param data Ponteiro para a estrutura tData que será preenchida com os valores lidos.
  */
 void LeData( tData *data ){
-    int dia, mes, ano;
+    int dia=0, mes=0, ano=0;
     scanf("%d %d %d", &dia, &mes, &ano);
-    InicializaDataParam(dia, mes, ano, &data);
+    InicializaDataParam(dia, mes, ano, data);
 }
 
 /**
@@ -39,7 +60,7 @@ void LeData( tData *data ){
  * @param data Ponteiro para a estrutura tData que será impressa.
  */
 void ImprimeData( tData *data ){
-    printf("'%02d/%02d/%02d\'\n", data->dia);
+    printf("'%02d/%02d/%04d'", data->dia, data->mes, data->ano);
 }
 
 /**
@@ -73,7 +94,7 @@ int InformaQtdDiasNoMes( tData *data ){
         return 30;
     }
     else if(data->mes == 2){
-        if(EhBissexto(&data)){
+        if(EhBissexto(data)){
             return 29;
         }
         else {
@@ -93,12 +114,18 @@ int InformaQtdDiasNoMes( tData *data ){
  * @param data Ponteiro para a estrutura tData que será avançada.
  */
 void AvancaParaDiaSeguinte( tData *data ){
-    if(data->dia == InformaQtdDiasNoMes(&data)){
+    if(data->dia == InformaQtdDiasNoMes(data)){
         data->dia = 1;
-    }
-    if(data->mes == 12){
+        if(data->mes == 12){
             data->mes = 1;
-        
+            data->ano++;
+        }
+        else {
+            data->mes++;
+        }
+    }
+    else {
+        data->dia++;
     }
 }
 

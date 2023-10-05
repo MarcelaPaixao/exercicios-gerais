@@ -12,7 +12,32 @@
  * @param ano Ano da data.
  * @param data Ponteiro para a estrutura tData que será inicializada.
  */
-void InicializaDataParam( int dia, int mes, int ano, tData *data);
+void InicializaDataParam( int dia, int mes, int ano, tData *data){
+    int qtdDias=0;
+    
+    data->ano = ano;
+    
+    if(mes > 12){
+        data->mes = 12;
+    }
+    else if(mes < 1){
+        data->mes = 1;
+    }
+    else {
+        data->mes = mes;
+    }
+    
+    qtdDias = InformaQtdDiasNoMes(data);
+    if(dia > qtdDias){
+        data->dia = qtdDias;
+    }
+    else if(dia < 1){
+        data->dia = 1;
+    }
+    else {
+        data->dia = dia;
+    }
+}
 
 /**
  * @brief Lê uma data do usuário.
@@ -21,7 +46,11 @@ void InicializaDataParam( int dia, int mes, int ano, tData *data);
  * 
  * @param data Ponteiro para a estrutura tData que será preenchida com os valores lidos.
  */
-void LeData( tData *data );
+void LeData( tData *data ){
+    int dia=0, mes=0, ano=0;
+    scanf("%d %d %d", &dia, &mes, &ano);
+    InicializaDataParam(dia, mes, ano, data);
+}
 
 /**
  * @brief Imprime uma data na tela.
@@ -30,7 +59,9 @@ void LeData( tData *data );
  * 
  * @param data Ponteiro para a estrutura tData que será impressa.
  */
-void ImprimeData( tData *data );
+void ImprimeData( tData *data ){
+    printf("'%02d/%02d/%04d'", data->dia, data->mes, data->ano);
+}
 
 /**
  * @brief Verifica se um ano é bissexto.
@@ -40,7 +71,15 @@ void ImprimeData( tData *data );
  * @param data Ponteiro para a estrutura tData que será verificada.
  * @return 1 se o ano é bissexto, 0 caso contrário.
  */
-int EhBissexto( tData *data );
+int EhBissexto( tData *data ){
+    if (!(data->ano%400) || !(data->ano%4)){
+        return 1;
+    }
+    if (!(data->ano%100)){
+        return 0;
+    }
+    return 0;
+}
 
 /**
  * @brief Informa a quantidade de dias no mês de uma data.
@@ -50,7 +89,22 @@ int EhBissexto( tData *data );
  * @param data Ponteiro para a estrutura tData que será verificada.
  * @return Quantidade de dias no mês correspondente.
  */
-int InformaQtdDiasNoMes( tData *data );
+int InformaQtdDiasNoMes( tData *data ){
+    if(data->mes == 4 || data->mes == 6 || data->mes == 9 || data->mes == 11){
+        return 30;
+    }
+    else if(data->mes == 2){
+        if(EhBissexto(data)){
+            return 29;
+        }
+        else {
+            return 28;
+        }
+    }
+    else {
+        return 31;
+    }
+}
 
 /**
  * @brief Avança uma data para o dia seguinte.
@@ -59,7 +113,21 @@ int InformaQtdDiasNoMes( tData *data );
  * 
  * @param data Ponteiro para a estrutura tData que será avançada.
  */
-void AvancaParaDiaSeguinte( tData *data );
+void AvancaParaDiaSeguinte( tData *data ){
+    if(data->dia == InformaQtdDiasNoMes(data)){
+        data->dia = 1;
+        if(data->mes == 12){
+            data->mes = 1;
+            data->ano++;
+        }
+        else {
+            data->mes++;
+        }
+    }
+    else {
+        data->dia++;
+    }
+}
 
 /**
  * @brief Verifica se duas datas são iguais.
@@ -70,4 +138,13 @@ void AvancaParaDiaSeguinte( tData *data );
  * @param data2 Ponteiro para a segunda estrutura tData que será comparada.
  * @return 1 se as datas são iguais, 0 caso contrário.
  */
-int EhIgual( tData *data1, tData *data2 );
+int EhIgual( tData *data1, tData *data2 ){
+    if(data1->dia == data2->dia &&
+       data1->mes == data2->mes &&
+       data1->ano == data2->ano){
+        return 1;
+    }
+    else {
+        return 0;
+    }
+}
