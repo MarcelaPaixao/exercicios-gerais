@@ -26,9 +26,9 @@ tDepartamento criaDepartamento(char* c1, char* c2, char* c3, char* nome, int m1,
     departamento.m1 = m1;
     departamento.m2 = m2;
     departamento.m3 = m3;
+    departamento.media_geral = calculaMediaGeralDepartamento(departamento);
     return departamento;
 }
-
 
 /**
  * @brief Verifica se a media inserida é valida, ou seja, pertence à [0, 10].
@@ -40,7 +40,9 @@ int validaMediaDepartamento (int media){
     if(media < 0 || media > 10){
         return 0;
     }
-    return 1;
+    else {
+        return 1;
+    }
 }
 
 /**
@@ -50,7 +52,7 @@ int validaMediaDepartamento (int media){
  * @return double Valor do calculo da média simples.
  */
 double calculaMediaGeralDepartamento(tDepartamento depto){
-    return ((depto.m1 + depto.m1 + depto.m1)/3.0);
+    return (depto.m1 + depto.m2 + depto.m3)/3.0;
 }
 
 /**
@@ -60,12 +62,13 @@ double calculaMediaGeralDepartamento(tDepartamento depto){
  */
 void imprimeAtributosDepartamento (tDepartamento depto){
     printf("ATRIBUTOS:\n");
-    printf("Departamento => %s\n", depto.nome);
-    printf("diretor => %s", depto.diretor);
-    printf("curso1 => %s, media1 => %d", depto.c1, depto.m1);
-    printf("curso2 => %s, media2 => %d", depto.c2, depto.m2);
-    printf("curso3 => %s, media3 => %d", depto.c3, depto.m3);
-    printf("media geral => %.2f", depto.media_geral);
+    printf("departamento => %s\n", depto.nome);
+    printf("diretor => %s\n", depto.diretor);
+    printf("curso1 => %s, media1 => %d\n", depto.c1, depto.m1);
+    printf("curso2 => %s, media2 => %d\n", depto.c2, depto.m2);
+    printf("curso3 => %s, media3 => %d\n", depto.c3, depto.m3);
+    printf("media geral => %.2f\n", depto.media_geral);
+    printf("desvio padrao => %.2f\n\n", calculaDesvioPadraoDepartamento(depto));
 }
 
 
@@ -76,11 +79,11 @@ void imprimeAtributosDepartamento (tDepartamento depto){
  * @return double Valor do cálculo do Desvio Padrão.
  */
 double calculaDesvioPadraoDepartamento(tDepartamento depto){ 
-    double somat=0;
-    somat = pow(depto.m1 - depto.media_geral, 2);
-    somat += pow(depto.m2 - depto.media_geral,2);
-    somat += pow(depto.m3 - depto.media_geral,2);
-    return (sqrt(somat/3));
+    double dp;
+    dp = pow(depto.m1 - depto.media_geral, 2);
+    dp += pow(depto.m2 - depto.media_geral, 2);
+    dp += pow(depto.m3 - depto.media_geral, 2);
+    return sqrt(dp/3.0);
 }
 
 /**

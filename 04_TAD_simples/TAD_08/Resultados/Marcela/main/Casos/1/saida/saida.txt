@@ -1,1 +1,0 @@
-valgrind: Resultados/Marcela/main/prog: No such file or directory
