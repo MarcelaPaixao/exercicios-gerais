@@ -1,0 +1,4 @@
+Resultados/Marcela/completo/main.c: In function ‘main’:
+Resultados/Marcela/completo/main.c:5:28: warning: unused variable ‘numPss’ [-Wunused-variable]
+    5 |     int qtdPessoas=0, i=0, numPss=0;
+      |                            ^~~~~~
