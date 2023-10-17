@@ -20,7 +20,7 @@ tPessoa CriaPessoa(){
  * @param pessoa Ponteiro para a pessoa a ser lida.
  */
 void LePessoa(tPessoa *pessoa){
-    scanf("\n%[^\n]", pessoa->nome);
+    scanf("%*c%[^\n]", pessoa->nome);
 }
 
 /**
