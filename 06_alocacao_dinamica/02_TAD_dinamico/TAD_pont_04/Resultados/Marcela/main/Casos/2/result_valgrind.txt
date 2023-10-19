@@ -1,0 +1,2 @@
+Test Case: Resultados/Marcela/main/Casos/2
+Valgrind result: allocs: 4 frees: 4 errors: 2 contexts: 2

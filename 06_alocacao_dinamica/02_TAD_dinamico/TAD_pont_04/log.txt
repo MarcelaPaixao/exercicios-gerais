@@ -58,13 +58,12 @@ LINKANDO OS ARQUIVOS COMPILADOS:
  - Arquivo de output gerado: Resultados/Marcela/aluno/result_linking.txt
  - Pasta main:
  - Gerando o binário prog linkando com o(s) arquivo(s) main/*.o
- - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
  - Arquivo de output gerado: Resultados/Marcela/main/result_linking.txt
  - Pasta completo:
  - Gerando o binário prog linkando com o(s) arquivo(s) completo/*.o
- - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
  - Arquivo de output gerado: Resultados/Marcela/completo/result_linking.txt
- - Arquivos Linkados: Erro! 2 arquivos com erros de linkagem.
 
 EXECUTANDO O VALGRIND EM CADA CASO:
  - Pasta aluno / Caso 1:
@@ -80,22 +79,28 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Valgrind: Ok! allocs: 11, frees: 11, errors: 0.
  - Resultado para o saida.txt: Incorreto!
  - Pasta main / Caso 1:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente.
+ - Arquivo de output gerado: Resultados/Marcela/main/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 0, frees: 0, errors: 0.
  - Resultado para o saida.txt: Incorreto!
  - Pasta main / Caso 2:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente.
- - Resultado para o saida.txt: Incorreto!
+ - Arquivo de output gerado: Resultados/Marcela/main/Casos/2/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 4, frees: 4, errors: 2.
+ - Resultado para o saida.txt: Ok!
  - Pasta main / Caso 3:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente.
+ - Arquivo de output gerado: Resultados/Marcela/main/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 0, frees: 0, errors: 0.
  - Resultado para o saida.txt: Incorreto!
  - Pasta completo / Caso 1:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente.
+ - Arquivo de output gerado: Resultados/Marcela/completo/Casos/1/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 6, frees: 6, errors: 44.
  - Resultado para o saida.txt: Incorreto!
  - Pasta completo / Caso 2:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente.
- - Resultado para o saida.txt: Incorreto!
+ - Arquivo de output gerado: Resultados/Marcela/completo/Casos/2/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 3, frees: 3, errors: 2.
+ - Resultado para o saida.txt: Ok!
  - Pasta completo / Caso 3:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente.
+ - Arquivo de output gerado: Resultados/Marcela/completo/Casos/3/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 12, frees: 12, errors: 192.
  - Resultado para o saida.txt: Incorreto!
 
 #######################################
@@ -106,16 +111,16 @@ RESULTADOS FINAIS
 Nome 0: Marcela
  - Arquivos Corretos: 3 de 3 / Nota 10.00
  - Compilações Corretas: 6 de 6 / Nota 10.00
- - Linkagens Corretas: 1 de 3 / Nota 3.33
+ - Linkagens Corretas: 3 de 3 / Nota 10.00
  - Resultados Corretos aluno: 1 de 3 / Nota 3.33
  - Valgrinds Corretos aluno: 3 de 3 / Nota 10.00
- - Resultados Corretos main: 0 de 3 / Nota 0.00
- - Valgrinds Corretos main: 0 de 3 / Nota 0.00
- - Resultados Corretos completo: 0 de 3 / Nota 0.00
+ - Resultados Corretos main: 1 de 3 / Nota 3.33
+ - Valgrinds Corretos main: 2 de 3 / Nota 6.66
+ - Resultados Corretos completo: 1 de 3 / Nota 3.33
  - Valgrinds Corretos completo: 0 de 3 / Nota 0.00
- - Soma das notas do Marcela: 36.660
+ - Soma das notas do Marcela: 56.650
  - Campos Considerados: 9
- - Média do Marcela: 4.07
+ - Média do Marcela: 6.29
 
 ----------------------------------------------------------------------------
 
