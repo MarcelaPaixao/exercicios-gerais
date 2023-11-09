@@ -19,7 +19,7 @@ void OrdenaVetor(tAluno **listaAlunos, int tam){
 int main(){
     int tam=0, i, j;
 
-    scanf("%d", &tam);
+    scanf("%d%*c", &tam);
 
     tAluno **listaAlunos = (tAluno **)malloc(tam * sizeof(tAluno*));
 

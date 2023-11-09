@@ -59,8 +59,8 @@ void LeAluno(tAluno *aluno){
     aluno->nome = realloc(aluno->nome, tamanho + 1);
     aluno->nome[tamanho] = '\0';
 
-    scanf("%d", &aluno->matricula);
-    scanf("%d %d %d", &aluno->n1, &aluno->n2, &aluno->n3);
+    scanf("%d%*c", &aluno->matricula);
+    scanf("%d %d %d%*c", &aluno->n1, &aluno->n2, &aluno->n3);
 }
 
 /**
