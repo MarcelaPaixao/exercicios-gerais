@@ -23,8 +23,10 @@ tAluno* CriaAluno(){
  * @param aluno Ponteiro para estrutura do tipo tAluno a ser apagada.
  */
 void ApagaAluno(tAluno *aluno){
-   // free(aluno->nome);
-    free(aluno);
+    if(aluno != NULL){
+        free(aluno->nome);
+        free(aluno);
+    }
 }
 
 /**
@@ -33,10 +35,21 @@ void ApagaAluno(tAluno *aluno){
  * @param Ponteiro para aluno (alocado dinamicamente), cujos dados serão preenchidos nessa função
  */
 void LeAluno(tAluno *aluno){
-   // aluno->nome = (char*)malloc(100);
-    scanf("%s", aluno->nome);
-    scanf("%d", &aluno->matricula);
-    scanf("%d %d %d", &aluno->n1, &aluno->n2, &aluno->n3);
+    char simb;
+    int tam=0;
+    
+    while(1){
+        scanf("%c", &simb);
+        tam++;
+        aluno->nome = realloc(aluno->nome, tam * sizeof(char));
+        if(simb == '\n'){
+            aluno->nome[tam - 1] = '\0'; 
+            break;
+        }
+        aluno->nome[tam - 1] = simb; 
+    }
+    scanf("%d%*c", &aluno->matricula);
+    scanf("%d %d %d%*c", &aluno->n1, &aluno->n2, &aluno->n3);
 }
 
 /**

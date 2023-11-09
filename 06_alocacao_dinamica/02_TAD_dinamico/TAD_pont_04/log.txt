@@ -68,40 +68,40 @@ LINKANDO OS ARQUIVOS COMPILADOS:
 EXECUTANDO O VALGRIND EM CADA CASO:
  - Pasta aluno / Caso 1:
  - Arquivo de output gerado: Resultados/Marcela/aluno/Casos/1/result_valgrind.txt.
- - Valgrind: Ok! allocs: 5, frees: 5, errors: 0.
- - Resultado para o saida.txt: Incorreto!
+ - Valgrind: Ok! allocs: 32, frees: 32, errors: 0.
+ - Resultado para o saida.txt: Ok!
  - Pasta aluno / Caso 2:
  - Arquivo de output gerado: Resultados/Marcela/aluno/Casos/2/result_valgrind.txt.
- - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Valgrind: Ok! allocs: 8, frees: 8, errors: 0.
  - Resultado para o saida.txt: Ok!
  - Pasta aluno / Caso 3:
  - Arquivo de output gerado: Resultados/Marcela/aluno/Casos/3/result_valgrind.txt.
- - Valgrind: Ok! allocs: 11, frees: 11, errors: 0.
- - Resultado para o saida.txt: Incorreto!
+ - Valgrind: Ok! allocs: 86, frees: 86, errors: 0.
+ - Resultado para o saida.txt: Ok!
  - Pasta main / Caso 1:
  - Arquivo de output gerado: Resultados/Marcela/main/Casos/1/result_valgrind.txt.
- - Valgrind: Ok! allocs: 0, frees: 0, errors: 0.
- - Resultado para o saida.txt: Incorreto!
+ - Valgrind: Ok! allocs: 11, frees: 11, errors: 0.
+ - Resultado para o saida.txt: Ok!
  - Pasta main / Caso 2:
  - Arquivo de output gerado: Resultados/Marcela/main/Casos/2/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 4, frees: 4, errors: 2.
+ - Valgrind: Ok! allocs: 4, frees: 4, errors: 0.
  - Resultado para o saida.txt: Ok!
  - Pasta main / Caso 3:
  - Arquivo de output gerado: Resultados/Marcela/main/Casos/3/result_valgrind.txt.
- - Valgrind: Ok! allocs: 0, frees: 0, errors: 0.
- - Resultado para o saida.txt: Incorreto!
+ - Valgrind: Ok! allocs: 23, frees: 23, errors: 0.
+ - Resultado para o saida.txt: Ok!
  - Pasta completo / Caso 1:
  - Arquivo de output gerado: Resultados/Marcela/completo/Casos/1/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 6, frees: 6, errors: 44.
- - Resultado para o saida.txt: Incorreto!
+ - Valgrind: Ok! allocs: 33, frees: 33, errors: 0.
+ - Resultado para o saida.txt: Ok!
  - Pasta completo / Caso 2:
  - Arquivo de output gerado: Resultados/Marcela/completo/Casos/2/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 3, frees: 3, errors: 2.
+ - Valgrind: Ok! allocs: 9, frees: 9, errors: 0.
  - Resultado para o saida.txt: Ok!
  - Pasta completo / Caso 3:
  - Arquivo de output gerado: Resultados/Marcela/completo/Casos/3/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 12, frees: 12, errors: 192.
- - Resultado para o saida.txt: Incorreto!
+ - Valgrind: Ok! allocs: 87, frees: 87, errors: 0.
+ - Resultado para o saida.txt: Ok!
 
 #######################################
 RESULTADOS FINAIS
@@ -112,15 +112,15 @@ Nome 0: Marcela
  - Arquivos Corretos: 3 de 3 / Nota 10.00
  - Compilações Corretas: 6 de 6 / Nota 10.00
  - Linkagens Corretas: 3 de 3 / Nota 10.00
- - Resultados Corretos aluno: 1 de 3 / Nota 3.33
+ - Resultados Corretos aluno: 3 de 3 / Nota 10.00
  - Valgrinds Corretos aluno: 3 de 3 / Nota 10.00
- - Resultados Corretos main: 1 de 3 / Nota 3.33
- - Valgrinds Corretos main: 2 de 3 / Nota 6.66
- - Resultados Corretos completo: 1 de 3 / Nota 3.33
- - Valgrinds Corretos completo: 0 de 3 / Nota 0.00
- - Soma das notas do Marcela: 56.650
+ - Resultados Corretos main: 3 de 3 / Nota 10.00
+ - Valgrinds Corretos main: 3 de 3 / Nota 10.00
+ - Resultados Corretos completo: 3 de 3 / Nota 10.00
+ - Valgrinds Corretos completo: 3 de 3 / Nota 10.00
+ - Soma das notas do Marcela: 90.000
  - Campos Considerados: 9
- - Média do Marcela: 6.29
+ - Média do Marcela: 10.00
 
 ----------------------------------------------------------------------------
 
