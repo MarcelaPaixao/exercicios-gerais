@@ -1,0 +1,4 @@
+Resultados/Marcela/main/main.c: In function ‘main’:
+Resultados/Marcela/main/main.c:20:19: warning: unused variable ‘j’ [-Wunused-variable]
+   20 |     int tam=0, i, j;
+      |                   ^
