@@ -13,14 +13,14 @@ CRIANDO O DIRETÓRIO DE RESULTADO PARA Marcela:
  - Arquivos criados: ok!
 
 CHECKANDO OS ARQUIVOS DO ALUNO:
- - Arquivo esperado 'Respostas/Marcela/banco.c' não encontrado!
+ - Arquivo esperado 'Respostas/Marcela/banco.c' encontrado!
  - Arquivo esperado 'Respostas/Marcela/banco.h' encontrado!
  - Arquivo esperado 'Respostas/Marcela/conta.c' encontrado!
  - Arquivo esperado 'Respostas/Marcela/conta.h' encontrado!
  - Arquivo esperado 'Respostas/Marcela/main.c' encontrado!
  - Arquivo esperado 'Respostas/Marcela/usuario.c' encontrado!
  - Arquivo esperado 'Respostas/Marcela/usuario.h' encontrado!
- - Arquivos esperados enviados: Faltando!
+ - Arquivos esperados enviados: Ok!
 
 COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
  - Pasta banco:
@@ -52,40 +52,34 @@ COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
 COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
  - Pasta banco:
  - Compilando o arquivo banco.c do aluno, gerando o banco.o
- - Erro de compilação! Verifique se o arquivo Resultados/Marcela/banco/banco.c está correto.
  - Compilando o arquivo conta.c do aluno, gerando o conta.o
  - Compilando o arquivo main.c do aluno, gerando o main.o
  - Compilando o arquivo usuario.c do aluno, gerando o usuario.o
  - Arquivo de output gerado: Resultados/Marcela/banco/result_compilation.txt.
  - Pasta conta:
  - Compilando o arquivo banco.c do aluno, gerando o banco.o
- - Erro de compilação! Verifique se o arquivo Resultados/Marcela/conta/banco.c está correto.
  - Compilando o arquivo conta.c do aluno, gerando o conta.o
  - Compilando o arquivo main.c do aluno, gerando o main.o
  - Compilando o arquivo usuario.c do aluno, gerando o usuario.o
  - Arquivo de output gerado: Resultados/Marcela/conta/result_compilation.txt.
  - Pasta main:
  - Compilando o arquivo banco.c do aluno, gerando o banco.o
- - Erro de compilação! Verifique se o arquivo Resultados/Marcela/main/banco.c está correto.
  - Compilando o arquivo conta.c do aluno, gerando o conta.o
  - Compilando o arquivo main.c do aluno, gerando o main.o
  - Compilando o arquivo usuario.c do aluno, gerando o usuario.o
  - Arquivo de output gerado: Resultados/Marcela/main/result_compilation.txt.
  - Pasta usuario:
  - Compilando o arquivo banco.c do aluno, gerando o banco.o
- - Erro de compilação! Verifique se o arquivo Resultados/Marcela/usuario/banco.c está correto.
  - Compilando o arquivo conta.c do aluno, gerando o conta.o
  - Compilando o arquivo main.c do aluno, gerando o main.o
  - Compilando o arquivo usuario.c do aluno, gerando o usuario.o
  - Arquivo de output gerado: Resultados/Marcela/usuario/result_compilation.txt.
  - Pasta completo:
  - Compilando o arquivo banco.c do aluno, gerando o banco.o
- - Erro de compilação! Verifique se o arquivo Resultados/Marcela/completo/banco.c está correto.
  - Compilando o arquivo conta.c do aluno, gerando o conta.o
  - Compilando o arquivo main.c do aluno, gerando o main.o
  - Compilando o arquivo usuario.c do aluno, gerando o usuario.o
  - Arquivo de output gerado: Resultados/Marcela/completo/result_compilation.txt.
- - Arquivos Compilados: Erro!: 5 arquivos com erros de compilacao.
  - Copiando os arquivos objetos do professor para cada subpasta do Resultado do Marcela:
  - Copiando o Gabarito-obj/banco.o para a pasta Resultados/Marcela/conta
  - Copiando o Gabarito-obj/banco.o para a pasta Resultados/Marcela/main
@@ -104,7 +98,7 @@ COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
 LINKANDO OS ARQUIVOS COMPILADOS:
  - Pasta banco:
  - Gerando o binário prog linkando com o(s) arquivo(s) banco/*.o
- - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
  - Arquivo de output gerado: Resultados/Marcela/banco/result_linking.txt
  - Pasta conta:
  - Gerando o binário prog linkando com o(s) arquivo(s) conta/*.o
@@ -122,17 +116,19 @@ LINKANDO OS ARQUIVOS COMPILADOS:
  - Gerando o binário prog linkando com o(s) arquivo(s) completo/*.o
  - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
  - Arquivo de output gerado: Resultados/Marcela/completo/result_linking.txt
- - Arquivos Linkados: Erro! 1 arquivos com erros de linkagem.
 
 EXECUTANDO O VALGRIND EM CADA CASO:
  - Pasta banco / Caso 1:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Arquivo de output gerado: Resultados/Marcela/banco/Casos/1/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 8, frees: 0, errors: 6.
  - Resultado para o saida.txt: Incorreto!
  - Pasta banco / Caso 2:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Arquivo de output gerado: Resultados/Marcela/banco/Casos/2/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 8, frees: 0, errors: 5.
  - Resultado para o saida.txt: Incorreto!
  - Pasta banco / Caso 3:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Arquivo de output gerado: Resultados/Marcela/banco/Casos/3/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 14, frees: 13, errors: 14.
  - Resultado para o saida.txt: Incorreto!
  - Pasta conta / Caso 1:
  - Arquivo de output gerado: Resultados/Marcela/conta/Casos/1/result_valgrind.txt.
@@ -189,9 +185,9 @@ RESULTADOS FINAIS
 
 ----------------------------------------------------------------------------
 Nome 0: Marcela
- - Arquivos Corretos: 6 de 7 / Nota 8.57
- - Compilações Corretas: 15 de 20 / Nota 7.50
- - Linkagens Corretas: 4 de 5 / Nota 8.00
+ - Arquivos Corretos: 7 de 7 / Nota 10.00
+ - Compilações Corretas: 20 de 20 / Nota 10.00
+ - Linkagens Corretas: 5 de 5 / Nota 10.00
  - Resultados Corretos banco: 0 de 3 / Nota 0.00
  - Valgrinds Corretos banco: 0 de 3 / Nota 0.00
  - Resultados Corretos conta: 0 de 3 / Nota 0.00
@@ -202,9 +198,9 @@ Nome 0: Marcela
  - Valgrinds Corretos usuario: 0 de 3 / Nota 0.00
  - Resultados Corretos completo: 0 de 3 / Nota 0.00
  - Valgrinds Corretos completo: 3 de 3 / Nota 10.00
- - Soma das notas do Marcela: 54.070
+ - Soma das notas do Marcela: 60.000
  - Campos Considerados: 13
- - Média do Marcela: 4.15
+ - Média do Marcela: 4.61
 
 ----------------------------------------------------------------------------
 

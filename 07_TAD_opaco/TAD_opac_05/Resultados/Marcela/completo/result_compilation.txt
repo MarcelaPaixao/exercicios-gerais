@@ -1,2 +1,12 @@
-cc1: fatal error: Resultados/Marcela/completo/banco.c: No such file or directory
-compilation terminated.
+Resultados/Marcela/completo/banco.c: In function ‘SaqueContaBanco’:
+Resultados/Marcela/completo/banco.c:62:15: warning: unknown conversion type character ‘ ’ in format [-Wformat=]
+   62 |     scanf("%d% %f%*c", &numConta, &valor);
+      |               ^
+Resultados/Marcela/completo/banco.c: In function ‘DepositoContaBanco’:
+Resultados/Marcela/completo/banco.c:79:15: warning: unknown conversion type character ‘ ’ in format [-Wformat=]
+   79 |     scanf("%d% %f%*c", &numConta, &valor);
+      |               ^
+Resultados/Marcela/completo/banco.c: In function ‘TransferenciaContaBanco’:
+Resultados/Marcela/completo/banco.c:97:15: warning: unknown conversion type character ‘ ’ in format [-Wformat=]
+   97 |     scanf("%d% %d %f%*c", &numOrigem, &numDestino, &valor);
+      |               ^

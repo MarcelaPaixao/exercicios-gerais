@@ -58,7 +58,7 @@ void LeConta(tConta *conta){
  */
 void ImprimeConta(tConta *conta){
     printf("Conta: %d\n", conta->numConta);
-    printf("Saldo: %.2f\n", conta->saldo);
+    printf("Saldo: R$ %.2f\n", conta->saldo);
     ImprimeUsuario(conta->user);
 }
 

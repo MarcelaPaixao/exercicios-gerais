@@ -2,12 +2,12 @@ Opcao invalida
 Opcao invalida
 ===| Imprimindo Relatorio |===
 Conta: 1
-Saldo: 315.00
+Saldo: R$ 315.00
 Nome: henrique
 CPF: 222444444
 
 Conta: 2
-Saldo: 45.00
+Saldo: R$ 45.00
 Nome: mirelly
 CPF: 444555666
 

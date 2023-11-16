@@ -1,104 +1,104 @@
-==50699== Memcheck, a memory error detector
-==50699== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
-==50699== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
-==50699== Command: Resultados/Marcela/usuario/prog Resultados/Marcela/usuario/Casos/3
-==50699== Parent PID: 50698
-==50699== 
-==50699== Conditional jump or move depends on uninitialised value(s)
-==50699==    at 0x1094D2: DepositoContaBanco (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
-==50699==    by 0x109968: main (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
-==50699==  Uninitialised value was created by a heap allocation
-==50699==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==50699==    by 0x1096C2: CriaConta (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
-==50699==    by 0x109369: AbreContaBanco (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
-==50699==    by 0x109952: main (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
-==50699== 
-==50699== Conditional jump or move depends on uninitialised value(s)
-==50699==    at 0x1095A3: TransferenciaContaBanco (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
-==50699==    by 0x109994: main (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
-==50699==  Uninitialised value was created by a heap allocation
-==50699==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==50699==    by 0x1096C2: CriaConta (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
-==50699==    by 0x109369: AbreContaBanco (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
-==50699==    by 0x109952: main (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
-==50699== 
-==50699== Conditional jump or move depends on uninitialised value(s)
-==50699==    at 0x1095E4: TransferenciaContaBanco (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
-==50699==    by 0x109994: main (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
-==50699==  Uninitialised value was created by a heap allocation
-==50699==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==50699==    by 0x1096C2: CriaConta (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
-==50699==    by 0x109369: AbreContaBanco (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
-==50699==    by 0x109952: main (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
-==50699== 
-==50699== Conditional jump or move depends on uninitialised value(s)
-==50699==    at 0x48F0AD6: __vfprintf_internal (vfprintf-internal.c:1516)
-==50699==    by 0x48DA79E: printf (printf.c:33)
-==50699==    by 0x1097A4: ImprimeConta (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
-==50699==    by 0x109698: ImprimeRelatorioBanco (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
-==50699==    by 0x1099AA: main (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
-==50699==  Uninitialised value was created by a heap allocation
-==50699==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==50699==    by 0x1096C2: CriaConta (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
-==50699==    by 0x109369: AbreContaBanco (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
-==50699==    by 0x109952: main (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
-==50699== 
-==50699== Use of uninitialised value of size 8
-==50699==    at 0x48D42EB: _itoa_word (_itoa.c:177)
-==50699==    by 0x48EFABD: __vfprintf_internal (vfprintf-internal.c:1516)
-==50699==    by 0x48DA79E: printf (printf.c:33)
-==50699==    by 0x1097A4: ImprimeConta (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
-==50699==    by 0x109698: ImprimeRelatorioBanco (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
-==50699==    by 0x1099AA: main (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
-==50699==  Uninitialised value was created by a heap allocation
-==50699==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==50699==    by 0x1096C2: CriaConta (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
-==50699==    by 0x109369: AbreContaBanco (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
-==50699==    by 0x109952: main (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
-==50699== 
-==50699== Conditional jump or move depends on uninitialised value(s)
-==50699==    at 0x48D42FC: _itoa_word (_itoa.c:177)
-==50699==    by 0x48EFABD: __vfprintf_internal (vfprintf-internal.c:1516)
-==50699==    by 0x48DA79E: printf (printf.c:33)
-==50699==    by 0x1097A4: ImprimeConta (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
-==50699==    by 0x109698: ImprimeRelatorioBanco (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
-==50699==    by 0x1099AA: main (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
-==50699==  Uninitialised value was created by a heap allocation
-==50699==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==50699==    by 0x1096C2: CriaConta (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
-==50699==    by 0x109369: AbreContaBanco (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
-==50699==    by 0x109952: main (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
-==50699== 
-==50699== Conditional jump or move depends on uninitialised value(s)
-==50699==    at 0x48F05C3: __vfprintf_internal (vfprintf-internal.c:1516)
-==50699==    by 0x48DA79E: printf (printf.c:33)
-==50699==    by 0x1097A4: ImprimeConta (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
-==50699==    by 0x109698: ImprimeRelatorioBanco (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
-==50699==    by 0x1099AA: main (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
-==50699==  Uninitialised value was created by a heap allocation
-==50699==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==50699==    by 0x1096C2: CriaConta (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
-==50699==    by 0x109369: AbreContaBanco (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
-==50699==    by 0x109952: main (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
-==50699== 
-==50699== Conditional jump or move depends on uninitialised value(s)
-==50699==    at 0x48EFC05: __vfprintf_internal (vfprintf-internal.c:1516)
-==50699==    by 0x48DA79E: printf (printf.c:33)
-==50699==    by 0x1097A4: ImprimeConta (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
-==50699==    by 0x109698: ImprimeRelatorioBanco (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
-==50699==    by 0x1099AA: main (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
-==50699==  Uninitialised value was created by a heap allocation
-==50699==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==50699==    by 0x1096C2: CriaConta (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
-==50699==    by 0x109369: AbreContaBanco (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
-==50699==    by 0x109952: main (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
-==50699== 
-==50699== 
-==50699== HEAP SUMMARY:
-==50699==     in use at exit: 0 bytes in 0 blocks
-==50699==   total heap usage: 96 allocs, 96 frees, 9,127 bytes allocated
-==50699== 
-==50699== All heap blocks were freed -- no leaks are possible
-==50699== 
-==50699== For lists of detected and suppressed errors, rerun with: -s
-==50699== ERROR SUMMARY: 60 errors from 8 contexts (suppressed: 0 from 0)
+==26074== Memcheck, a memory error detector
+==26074== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==26074== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==26074== Command: Resultados/Marcela/usuario/prog Resultados/Marcela/usuario/Casos/3
+==26074== Parent PID: 26073
+==26074== 
+==26074== Conditional jump or move depends on uninitialised value(s)
+==26074==    at 0x1094D2: DepositoContaBanco (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
+==26074==    by 0x109968: main (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
+==26074==  Uninitialised value was created by a heap allocation
+==26074==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==26074==    by 0x1096C2: CriaConta (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
+==26074==    by 0x109369: AbreContaBanco (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
+==26074==    by 0x109952: main (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
+==26074== 
+==26074== Conditional jump or move depends on uninitialised value(s)
+==26074==    at 0x1095A3: TransferenciaContaBanco (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
+==26074==    by 0x109994: main (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
+==26074==  Uninitialised value was created by a heap allocation
+==26074==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==26074==    by 0x1096C2: CriaConta (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
+==26074==    by 0x109369: AbreContaBanco (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
+==26074==    by 0x109952: main (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
+==26074== 
+==26074== Conditional jump or move depends on uninitialised value(s)
+==26074==    at 0x1095E4: TransferenciaContaBanco (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
+==26074==    by 0x109994: main (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
+==26074==  Uninitialised value was created by a heap allocation
+==26074==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==26074==    by 0x1096C2: CriaConta (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
+==26074==    by 0x109369: AbreContaBanco (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
+==26074==    by 0x109952: main (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
+==26074== 
+==26074== Conditional jump or move depends on uninitialised value(s)
+==26074==    at 0x48F0AD6: __vfprintf_internal (vfprintf-internal.c:1516)
+==26074==    by 0x48DA79E: printf (printf.c:33)
+==26074==    by 0x1097A4: ImprimeConta (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
+==26074==    by 0x109698: ImprimeRelatorioBanco (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
+==26074==    by 0x1099AA: main (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
+==26074==  Uninitialised value was created by a heap allocation
+==26074==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==26074==    by 0x1096C2: CriaConta (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
+==26074==    by 0x109369: AbreContaBanco (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
+==26074==    by 0x109952: main (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
+==26074== 
+==26074== Use of uninitialised value of size 8
+==26074==    at 0x48D42EB: _itoa_word (_itoa.c:177)
+==26074==    by 0x48EFABD: __vfprintf_internal (vfprintf-internal.c:1516)
+==26074==    by 0x48DA79E: printf (printf.c:33)
+==26074==    by 0x1097A4: ImprimeConta (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
+==26074==    by 0x109698: ImprimeRelatorioBanco (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
+==26074==    by 0x1099AA: main (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
+==26074==  Uninitialised value was created by a heap allocation
+==26074==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==26074==    by 0x1096C2: CriaConta (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
+==26074==    by 0x109369: AbreContaBanco (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
+==26074==    by 0x109952: main (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
+==26074== 
+==26074== Conditional jump or move depends on uninitialised value(s)
+==26074==    at 0x48D42FC: _itoa_word (_itoa.c:177)
+==26074==    by 0x48EFABD: __vfprintf_internal (vfprintf-internal.c:1516)
+==26074==    by 0x48DA79E: printf (printf.c:33)
+==26074==    by 0x1097A4: ImprimeConta (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
+==26074==    by 0x109698: ImprimeRelatorioBanco (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
+==26074==    by 0x1099AA: main (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
+==26074==  Uninitialised value was created by a heap allocation
+==26074==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==26074==    by 0x1096C2: CriaConta (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
+==26074==    by 0x109369: AbreContaBanco (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
+==26074==    by 0x109952: main (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
+==26074== 
+==26074== Conditional jump or move depends on uninitialised value(s)
+==26074==    at 0x48F05C3: __vfprintf_internal (vfprintf-internal.c:1516)
+==26074==    by 0x48DA79E: printf (printf.c:33)
+==26074==    by 0x1097A4: ImprimeConta (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
+==26074==    by 0x109698: ImprimeRelatorioBanco (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
+==26074==    by 0x1099AA: main (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
+==26074==  Uninitialised value was created by a heap allocation
+==26074==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==26074==    by 0x1096C2: CriaConta (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
+==26074==    by 0x109369: AbreContaBanco (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
+==26074==    by 0x109952: main (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
+==26074== 
+==26074== Conditional jump or move depends on uninitialised value(s)
+==26074==    at 0x48EFC05: __vfprintf_internal (vfprintf-internal.c:1516)
+==26074==    by 0x48DA79E: printf (printf.c:33)
+==26074==    by 0x1097A4: ImprimeConta (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
+==26074==    by 0x109698: ImprimeRelatorioBanco (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
+==26074==    by 0x1099AA: main (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
+==26074==  Uninitialised value was created by a heap allocation
+==26074==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==26074==    by 0x1096C2: CriaConta (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
+==26074==    by 0x109369: AbreContaBanco (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
+==26074==    by 0x109952: main (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/usuario/prog)
+==26074== 
+==26074== 
+==26074== HEAP SUMMARY:
+==26074==     in use at exit: 0 bytes in 0 blocks
+==26074==   total heap usage: 96 allocs, 96 frees, 9,127 bytes allocated
+==26074== 
+==26074== All heap blocks were freed -- no leaks are possible
+==26074== 
+==26074== For lists of detected and suppressed errors, rerun with: -s
+==26074== ERROR SUMMARY: 60 errors from 8 contexts (suppressed: 0 from 0)
