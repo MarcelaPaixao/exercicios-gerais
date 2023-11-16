@@ -1,0 +1,9 @@
+/usr/bin/ld: Resultados/Marcela/banco/main.o: in function `main':
+main.c:(.text+0x21): undefined reference to `CriaBanco'
+/usr/bin/ld: main.c:(.text+0x54): undefined reference to `AbreContaBanco'
+/usr/bin/ld: main.c:(.text+0x6a): undefined reference to `DepositoContaBanco'
+/usr/bin/ld: main.c:(.text+0x80): undefined reference to `SaqueContaBanco'
+/usr/bin/ld: main.c:(.text+0x96): undefined reference to `TransferenciaContaBanco'
+/usr/bin/ld: main.c:(.text+0xac): undefined reference to `ImprimeRelatorioBanco'
+/usr/bin/ld: main.c:(.text+0xc5): undefined reference to `DestroiBanco'
+collect2: error: ld returned 1 exit status
