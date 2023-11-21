@@ -45,9 +45,11 @@ void DestroiBanco(tBanco *banco){
  * @param banco Ponteiro para o banco onde a conta será aberta.
  */
 void AbreContaBanco(tBanco *banco){
-    (banco->qtd)++;
-    banco->contas[banco->qtd - 1] = CriaConta();
-    LeConta(banco->contas[banco->qtd - 1]);
+    if(banco->qtd < 5){
+        (banco->qtd)++;
+        banco->contas[banco->qtd - 1] = CriaConta();
+        LeConta(banco->contas[banco->qtd - 1]);
+    }
 }
 
 /**
@@ -59,8 +61,8 @@ void AbreContaBanco(tBanco *banco){
 void SaqueContaBanco(tBanco *banco){
     int numConta;
     float valor;
-    scanf("%d% %f%*c", &numConta, &valor);
-    for(int i=0; i < 5; i++){
+    scanf("%d% %f", &numConta, &valor);
+    for(int i=0; i < banco->qtd; i++){
         if(VerificaConta(banco->contas[i], numConta)){
             SaqueConta(banco->contas[i], valor);
         }
@@ -74,10 +76,10 @@ void SaqueContaBanco(tBanco *banco){
  * @param banco Ponteiro para o banco onde a conta será depositada.
  */
 void DepositoContaBanco(tBanco *banco){
-    int numConta;
-    float valor;
-    scanf("%d% %f%*c", &numConta, &valor);
-    for(int i=0; i < 5; i++){
+    int numConta=0;
+    float valor=0;
+    scanf("%d %f", &numConta, &valor);
+    for(int i=0; i < banco->qtd; i++){
         if(VerificaConta(banco->contas[i], numConta)){
             DepositoConta(banco->contas[i], valor);
             break;
@@ -94,18 +96,22 @@ void DepositoContaBanco(tBanco *banco){
 void TransferenciaContaBanco(tBanco *banco){
     int numOrigem, numDestino, idxOrigem=-1, idxDestino=-1;
     float valor;
-    scanf("%d% %d %f%*c", &numOrigem, &numDestino, &valor);
-    for(int i=0; i < 5; i++){
-        if(VerificaConta(banco->contas[i], numOrigem)){
-            idxOrigem = i;
-        }
-        if(VerificaConta(banco->contas[i], numDestino)){
-            idxDestino = i;
-        }
-        if(idxOrigem >= 0 && idxDestino >= 0 && idxOrigem != idxDestino){
-            TransferenciaConta(banco->contas[idxDestino], banco->contas[idxOrigem], valor);
+    if(banco->contas != NULL){
+        scanf("%d %d %f", &numOrigem, &numDestino, &valor);
+        for(int i=0; i < banco->qtd; i++){
+            if(VerificaConta(banco->contas[i], numOrigem)){
+                idxOrigem = i;
+            }
+            if(VerificaConta(banco->contas[i], numDestino)){
+                idxDestino = i;
+            }
+            if(idxOrigem >= 0 && idxDestino >= 0 && idxOrigem != idxDestino){
+                TransferenciaConta(banco->contas[idxDestino], banco->contas[idxOrigem], valor);
+                break;
+            }
         }
     }
+    
 }
 
 /**

@@ -120,15 +120,15 @@ LINKANDO OS ARQUIVOS COMPILADOS:
 EXECUTANDO O VALGRIND EM CADA CASO:
  - Pasta banco / Caso 1:
  - Arquivo de output gerado: Resultados/Marcela/banco/Casos/1/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 8, frees: 0, errors: 6.
+ - Valgrind: Incorreto! allocs: 8, frees: 0, errors: 1736.
  - Resultado para o saida.txt: Incorreto!
  - Pasta banco / Caso 2:
  - Arquivo de output gerado: Resultados/Marcela/banco/Casos/2/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 8, frees: 0, errors: 5.
+ - Valgrind: Incorreto! allocs: 8, frees: 0, errors: 2.
  - Resultado para o saida.txt: Incorreto!
  - Pasta banco / Caso 3:
  - Arquivo de output gerado: Resultados/Marcela/banco/Casos/3/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 14, frees: 13, errors: 14.
+ - Valgrind: Incorreto! allocs: 14, frees: 13, errors: 1.
  - Resultado para o saida.txt: Incorreto!
  - Pasta conta / Caso 1:
  - Arquivo de output gerado: Resultados/Marcela/conta/Casos/1/result_valgrind.txt.
