@@ -1,4 +1,0 @@
-Resultados/Marcela/completo/banco.c: In function ‘SaqueContaBanco’:
-Resultados/Marcela/completo/banco.c:64:15: warning: unknown conversion type character ‘ ’ in format [-Wformat=]
-   64 |     scanf("%d% %f", &numConta, &valor);
-      |               ^

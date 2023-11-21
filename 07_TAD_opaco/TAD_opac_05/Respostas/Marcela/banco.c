@@ -16,11 +16,11 @@ struct Banco{
  */
 tBanco *CriaBanco(){
     tBanco *banco = (tBanco *) malloc(sizeof(tBanco));
-    banco->contas = malloc(5 * sizeof(tConta *));
     if(banco == NULL){
         printf("Falha na alocacao de memoria!\n");
-        exit(0);
+        exit(1);
     }
+    banco->contas = malloc(5 * sizeof(tConta *));
     banco->qtd = 0;
     return banco;
 }
@@ -32,9 +32,10 @@ tBanco *CriaBanco(){
  */
 void DestroiBanco(tBanco *banco){
     if(banco != NULL){
-        for(int i=0; i < 5; i++){
+        for(int i=0; i < banco->qtd; i++){
             DestroiConta(banco->contas[i]);
         }
+        free(banco->contas);
         free(banco);
     }
 }
@@ -61,10 +62,11 @@ void AbreContaBanco(tBanco *banco){
 void SaqueContaBanco(tBanco *banco){
     int numConta;
     float valor;
-    scanf("%d% %f", &numConta, &valor);
+    scanf("%d %f", &numConta, &valor);
     for(int i=0; i < banco->qtd; i++){
         if(VerificaConta(banco->contas[i], numConta)){
             SaqueConta(banco->contas[i], valor);
+            break;
         }
     }
 }
@@ -76,8 +78,8 @@ void SaqueContaBanco(tBanco *banco){
  * @param banco Ponteiro para o banco onde a conta será depositada.
  */
 void DepositoContaBanco(tBanco *banco){
-    int numConta=0;
-    float valor=0;
+    int numConta;
+    float valor;
     scanf("%d %f", &numConta, &valor);
     for(int i=0; i < banco->qtd; i++){
         if(VerificaConta(banco->contas[i], numConta)){
@@ -121,9 +123,8 @@ void TransferenciaContaBanco(tBanco *banco){
  */
 void ImprimeRelatorioBanco(tBanco *banco){
     printf("===| Imprimindo Relatorio |===\n");
-    for(int i=0; i < 5; i++){
+    for(int i=0; i < banco->qtd; i++){
         ImprimeConta(banco->contas[i]);
-        printf("\n");
     }
 }
 

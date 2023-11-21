@@ -120,15 +120,15 @@ LINKANDO OS ARQUIVOS COMPILADOS:
 EXECUTANDO O VALGRIND EM CADA CASO:
  - Pasta banco / Caso 1:
  - Arquivo de output gerado: Resultados/Marcela/banco/Casos/1/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 8, frees: 0, errors: 1736.
+ - Valgrind: Ok! allocs: 8, frees: 8, errors: 0.
  - Resultado para o saida.txt: Incorreto!
  - Pasta banco / Caso 2:
  - Arquivo de output gerado: Resultados/Marcela/banco/Casos/2/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 8, frees: 0, errors: 2.
+ - Valgrind: Ok! allocs: 8, frees: 8, errors: 0.
  - Resultado para o saida.txt: Incorreto!
  - Pasta banco / Caso 3:
  - Arquivo de output gerado: Resultados/Marcela/banco/Casos/3/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 14, frees: 13, errors: 1.
+ - Valgrind: Ok! allocs: 14, frees: 14, errors: 0.
  - Resultado para o saida.txt: Incorreto!
  - Pasta conta / Caso 1:
  - Arquivo de output gerado: Resultados/Marcela/conta/Casos/1/result_valgrind.txt.
@@ -189,7 +189,7 @@ Nome 0: Marcela
  - Compilações Corretas: 20 de 20 / Nota 10.00
  - Linkagens Corretas: 5 de 5 / Nota 10.00
  - Resultados Corretos banco: 0 de 3 / Nota 0.00
- - Valgrinds Corretos banco: 0 de 3 / Nota 0.00
+ - Valgrinds Corretos banco: 3 de 3 / Nota 10.00
  - Resultados Corretos conta: 0 de 3 / Nota 0.00
  - Valgrinds Corretos conta: 3 de 3 / Nota 10.00
  - Resultados Corretos main: 0 de 3 / Nota 0.00
@@ -198,9 +198,9 @@ Nome 0: Marcela
  - Valgrinds Corretos usuario: 0 de 3 / Nota 0.00
  - Resultados Corretos completo: 0 de 3 / Nota 0.00
  - Valgrinds Corretos completo: 3 de 3 / Nota 10.00
- - Soma das notas do Marcela: 60.000
+ - Soma das notas do Marcela: 70.000
  - Campos Considerados: 13
- - Média do Marcela: 4.61
+ - Média do Marcela: 5.38
 
 ----------------------------------------------------------------------------
 

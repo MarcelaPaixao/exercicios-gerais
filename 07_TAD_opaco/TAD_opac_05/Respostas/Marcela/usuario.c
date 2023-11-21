@@ -63,6 +63,6 @@ void LeUsuario(tUsuario *user){
  */
 void ImprimeUsuario(tUsuario *user){
     printf("Nome: %s\n", user->nome);
-    printf("CPF: %d\n", user->cpf);
+    printf("CPF: %d\n\n", user->cpf);
 }
 

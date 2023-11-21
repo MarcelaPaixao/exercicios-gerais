@@ -1,25 +1,15 @@
-==42855== Memcheck, a memory error detector
-==42855== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
-==42855== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
-==42855== Command: Resultados/Marcela/banco/prog Resultados/Marcela/banco/Casos/3
-==42855== Parent PID: 42854
-==42855== 
-==42855== 
-==42855== HEAP SUMMARY:
-==42855==     in use at exit: 40 bytes in 1 blocks
-==42855==   total heap usage: 14 allocs, 13 frees, 8,653 bytes allocated
-==42855== 
-==42855== 40 bytes in 1 blocks are definitely lost in loss record 1 of 1
-==42855==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==42855==    by 0x10924C: CriaBanco (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/banco/prog)
-==42855==    by 0x1098FC: main (in /home/mcpaixao/exercicios-gerais/07_TAD_opaco/TAD_opac_05/Resultados/Marcela/banco/prog)
-==42855== 
-==42855== LEAK SUMMARY:
-==42855==    definitely lost: 40 bytes in 1 blocks
-==42855==    indirectly lost: 0 bytes in 0 blocks
-==42855==      possibly lost: 0 bytes in 0 blocks
-==42855==    still reachable: 0 bytes in 0 blocks
-==42855==         suppressed: 0 bytes in 0 blocks
-==42855== 
-==42855== For lists of detected and suppressed errors, rerun with: -s
-==42855== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
+==103129== Memcheck, a memory error detector
+==103129== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==103129== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==103129== Command: Resultados/Marcela/banco/prog Resultados/Marcela/banco/Casos/3
+==103129== Parent PID: 103128
+==103129== 
+==103129== 
+==103129== HEAP SUMMARY:
+==103129==     in use at exit: 0 bytes in 0 blocks
+==103129==   total heap usage: 14 allocs, 14 frees, 8,653 bytes allocated
+==103129== 
+==103129== All heap blocks were freed -- no leaks are possible
+==103129== 
+==103129== For lists of detected and suppressed errors, rerun with: -s
+==103129== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
