@@ -95,14 +95,40 @@ void LerCadastroLocadora (tLocadora* Locadora){
  * @param codigos Vetor contendo os códigos dos filmes a serem alugados.
  * @param quantidadeCodigos Número de códigos de filmes a serem alugados.
  */
-void AlugarFilmesLocadora (tLocadora* locadora, int* codigos, int quantidadeCodigos);
+void AlugarFilmesLocadora (tLocadora* locadora, int* codigos, int quantidadeCodigos){
+    for(int i=0; i < quantidadeCodigos; i++){
+        for(int j=0; j < locadora->filmes; j++){
+            if(EhMesmoCodigoFilme(locadora->filmes[j], codigos[i])){
+                if(ObterQtdEstoqueFilme(locadora->filmes[j])){
+                    AlugarFilme(locadora->filmes[j]);
+                }
+                else {
+                    printf("Filme");
+                    ImprimirNomeFilme(locadora->filmes[j]);
+                    printf("- %d nao  disponivel  no  estoque.  Volte  mais tarde.\n", codigos[i]);  
+                }
+            }
+            
+        }
+    }
+}
 
 /**
  * @brief Lê o aluguel de um conjunto de filmes a partir da entrada padrão e os aluga na locadora.
  * 
  * @param locadora Ponteiro para a instância de tLocadora a ser atualizada.
  */
-void LerAluguelLocadora (tLocadora* locadora);
+void LerAluguelLocadora (tLocadora* locadora){
+    int cod, total=0;
+    int *codigos = (int *)malloc(sizeof(int));
+    //int *codigos = NULL;
+    while(scanf("%d\n", &cod) == 1){
+        total++;
+        codigos = realloc(codigos, total);
+        codigos[total - 1] = cod;
+    }
+    AlugarFilmesLocadora(locadora, codigos, total);
+}
 
 /**
  * @brief Devolve um ou mais filmes alugados da locadora.
@@ -118,7 +144,17 @@ void DevolverFilmesLocadora (tLocadora* locadora, int* codigos, int quantidadeCo
  * 
  * @param locadora Ponteiro para a instância de tLocadora a ser atualizada.
  */
-void LerDevolucaoLocadora (tLocadora* locadora);
+void LerDevolucaoLocadora (tLocadora* locadora){
+    int cod, total=0;
+    int *codigos = (int *)malloc(sizeof(int));
+    //int *codigos = NULL;
+    while(scanf("%d\n", &cod) == 1){
+        total++;
+        codigos = realloc(codigos, total);
+        codigos[total - 1] = cod;
+    }
+    DevolverFilmesLocadora(locadora, codigos, total);
+}
 
 /**
  * @brief Ordena os filmes cadastrados na locadora por ordem alfabética.
