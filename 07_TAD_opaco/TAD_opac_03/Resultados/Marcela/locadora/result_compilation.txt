@@ -1,0 +1,4 @@
+cc1: fatal error: Resultados/Marcela/locadora/locadora.c: No such file or directory
+compilation terminated.
+cc1: fatal error: Resultados/Marcela/locadora/main.c: No such file or directory
+compilation terminated.
