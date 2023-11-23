@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <ctype.h>
 #include "usuario.h"
 
 struct Usuario{
@@ -45,10 +46,13 @@ void DestroiUsuario(tUsuario *user){
 void LeUsuario(tUsuario *user){
     char caractere = '\0';
     int tam=0;
-    while(scanf("%c", &caractere) == 1 && caractere != '\n'){
-        tam++;
-        user->nome = realloc(user->nome, tam);
-        user->nome[tam - 1] = caractere;
+
+    while(scanf("%c", &caractere) == 1 && caractere != ' '){
+        if(caractere != '\n'){
+            tam++;
+            user->nome = realloc(user->nome, tam);
+            user->nome[tam - 1] = caractere;
+        }
     }
     user->nome = realloc(user->nome, tam + 1);
     user->nome[tam] = '\0';
@@ -63,6 +67,6 @@ void LeUsuario(tUsuario *user){
  */
 void ImprimeUsuario(tUsuario *user){
     printf("Nome: %s\n", user->nome);
-    printf("CPF: %d\n", user->cpf);
+    printf("CPF: %d\n\n", user->cpf);
 }
 

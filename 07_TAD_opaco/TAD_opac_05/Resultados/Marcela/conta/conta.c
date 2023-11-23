@@ -83,7 +83,10 @@ int VerificaConta(tConta *conta, int numero){
  * @param valor Valor a ser sacado.
  */
 void SaqueConta(tConta *conta, float valor){
-    if(conta->saldo >= valor){
+    if(conta->saldo < valor){
+        printf("Saldo Insuficiente!\n");    
+    }
+    else {
         conta->saldo -= valor;
     }
 }
@@ -106,7 +109,10 @@ void DepositoConta(tConta *conta, float valor){
  * @param valor Valor a ser transferido.
 */
 void TransferenciaConta(tConta *destino, tConta *origem, float valor){
-    if(origem->saldo >= valor){
+    if(origem->saldo < valor){
+        printf("Saldo Insuficiente para realizar a transferencia!\n"); 
+    }
+    else {
         SaqueConta(origem, valor);
         DepositoConta(destino, valor);
     }

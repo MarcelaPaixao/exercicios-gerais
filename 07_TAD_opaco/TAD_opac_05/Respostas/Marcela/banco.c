@@ -62,11 +62,13 @@ void AbreContaBanco(tBanco *banco){
 void SaqueContaBanco(tBanco *banco){
     int numConta;
     float valor;
-    scanf("%d %f", &numConta, &valor);
-    for(int i=0; i < banco->qtd; i++){
-        if(VerificaConta(banco->contas[i], numConta)){
-            SaqueConta(banco->contas[i], valor);
-            break;
+    if(banco->contas != NULL){
+        scanf("%d %f%*c", &numConta, &valor);
+        for(int i=0; i < banco->qtd; i++){
+            if(VerificaConta(banco->contas[i], numConta)){
+                SaqueConta(banco->contas[i], valor);
+                break;
+            }
         }
     }
 }
@@ -80,11 +82,13 @@ void SaqueContaBanco(tBanco *banco){
 void DepositoContaBanco(tBanco *banco){
     int numConta;
     float valor;
-    scanf("%d %f", &numConta, &valor);
-    for(int i=0; i < banco->qtd; i++){
-        if(VerificaConta(banco->contas[i], numConta)){
-            DepositoConta(banco->contas[i], valor);
-            break;
+    if(banco->contas != NULL){
+        scanf("%d %f%*c", &numConta, &valor);
+        for(int i=0; i < banco->qtd; i++){
+            if(VerificaConta(banco->contas[i], numConta)){
+                DepositoConta(banco->contas[i], valor);
+                    break;
+            }
         }
     }
 }
@@ -97,14 +101,14 @@ void DepositoContaBanco(tBanco *banco){
  */
 void TransferenciaContaBanco(tBanco *banco){
     int numOrigem, numDestino, idxOrigem=-1, idxDestino=-1;
-    float valor;
+    float valor=0;
     if(banco->contas != NULL){
-        scanf("%d %d %f", &numOrigem, &numDestino, &valor);
+        scanf("%d %d %f%*c", &numDestino, &numOrigem, &valor);
         for(int i=0; i < banco->qtd; i++){
             if(VerificaConta(banco->contas[i], numOrigem)){
                 idxOrigem = i;
             }
-            if(VerificaConta(banco->contas[i], numDestino)){
+            else if(VerificaConta(banco->contas[i], numDestino)){
                 idxDestino = i;
             }
             if(idxOrigem >= 0 && idxDestino >= 0 && idxOrigem != idxDestino){
@@ -113,7 +117,6 @@ void TransferenciaContaBanco(tBanco *banco){
             }
         }
     }
-    
 }
 
 /**

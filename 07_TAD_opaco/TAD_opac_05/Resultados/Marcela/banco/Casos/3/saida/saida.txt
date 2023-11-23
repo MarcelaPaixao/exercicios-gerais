@@ -1,25 +1,16 @@
-Opcao invalida
-Opcao invalida
-
-Saldo Insuficiente para realizar a transferência!
-Opcao invalida
-
-Saldo Insuficiente para realizar a transferência!
-Opcao invalida
-Opcao invalida
 ===| Imprimindo Relatorio |===
 Conta: 1
-Saldo: R$ 1000.00
+Saldo: R$ 900.00
 Nome: matheus
 CPF: 1111111
 
 Conta: 2
-Saldo: R$ 0.00
+Saldo: R$ 60.00
 Nome: afonso
 CPF: 2222222
 
 Conta: 3
-Saldo: R$ 0.00
+Saldo: R$ 40.00
 Nome: joao
 CPF: 3333333
 
