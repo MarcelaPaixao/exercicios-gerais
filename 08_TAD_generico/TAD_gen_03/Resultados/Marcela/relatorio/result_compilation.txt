@@ -1,0 +1,29 @@
+Resultados/Marcela/relatorio/aluno.c: In function ‘CriaAluno’:
+Resultados/Marcela/relatorio/aluno.c:18:21: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+   18 |     tAluno *aluno = malloc(sizeof(tAluno));
+      |                     ^~~~~~
+Resultados/Marcela/relatorio/aluno.c:5:1: note: include ‘<stdlib.h>’ or provide a declaration of ‘malloc’
+    4 | #include "aluno.h"
+  +++ |+#include <stdlib.h>
+    5 | 
+Resultados/Marcela/relatorio/aluno.c:18:21: warning: incompatible implicit declaration of built-in function ‘malloc’ [-Wbuiltin-declaration-mismatch]
+   18 |     tAluno *aluno = malloc(sizeof(tAluno));
+      |                     ^~~~~~
+Resultados/Marcela/relatorio/aluno.c:18:21: note: include ‘<stdlib.h>’ or provide a declaration of ‘malloc’
+Resultados/Marcela/relatorio/aluno.c:21:9: warning: implicit declaration of function ‘exit’ [-Wimplicit-function-declaration]
+   21 |         exit(1);
+      |         ^~~~
+Resultados/Marcela/relatorio/aluno.c:21:9: note: include ‘<stdlib.h>’ or provide a declaration of ‘exit’
+Resultados/Marcela/relatorio/aluno.c:21:9: warning: incompatible implicit declaration of built-in function ‘exit’ [-Wbuiltin-declaration-mismatch]
+Resultados/Marcela/relatorio/aluno.c:21:9: note: include ‘<stdlib.h>’ or provide a declaration of ‘exit’
+Resultados/Marcela/relatorio/aluno.c: In function ‘DestroiAluno’:
+Resultados/Marcela/relatorio/aluno.c:37:9: warning: implicit declaration of function ‘free’ [-Wimplicit-function-declaration]
+   37 |         free((tAluno*)aluno);
+      |         ^~~~
+Resultados/Marcela/relatorio/aluno.c:37:9: note: include ‘<stdlib.h>’ or provide a declaration of ‘free’
+Resultados/Marcela/relatorio/aluno.c:37:9: warning: incompatible implicit declaration of built-in function ‘free’ [-Wbuiltin-declaration-mismatch]
+Resultados/Marcela/relatorio/aluno.c:37:9: note: include ‘<stdlib.h>’ or provide a declaration of ‘free’
+cc1: fatal error: Resultados/Marcela/relatorio/main.c: No such file or directory
+compilation terminated.
+cc1: fatal error: Resultados/Marcela/relatorio/relatorio.c: No such file or directory
+compilation terminated.
