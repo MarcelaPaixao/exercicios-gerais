@@ -1,0 +1,260 @@
+Rodando o script do Aluno - Arquivos header necessários do professor existem na pasta Includes
+ - Arquivos objetos necessários do professor existem na pasta Gabarito-obj.
+#######################################
+ALUNO: Marcela
+#######################################
+CRIANDO O DIRETÓRIO DE RESULTADO PARA Marcela:
+ - Diretório Resultados/Marcela criado com sucesso!
+ - Diretório Resultados/Marcela/agencia criado com sucesso!
+ - Diretório Resultados/Marcela/banco criado com sucesso!
+ - Diretório Resultados/Marcela/conta criado com sucesso!
+ - Diretório Resultados/Marcela/main criado com sucesso!
+ - Diretório Resultados/Marcela/vector criado com sucesso!
+ - Diretório Resultados/Marcela/completo criado com sucesso!
+ - Arquivos criados: ok!
+
+CHECKANDO OS ARQUIVOS DO ALUNO:
+ - Arquivo esperado 'Respostas/Marcela/agencia.c' encontrado!
+ - Arquivo esperado 'Respostas/Marcela/agencia.h' encontrado!
+ - Arquivo esperado 'Respostas/Marcela/banco.c' não encontrado!
+ - Arquivo esperado 'Respostas/Marcela/banco.h' encontrado!
+ - Arquivo esperado 'Respostas/Marcela/conta.c' encontrado!
+ - Arquivo esperado 'Respostas/Marcela/conta.h' encontrado!
+ - Arquivo esperado 'Respostas/Marcela/main.c' não encontrado!
+ - Arquivo esperado 'Respostas/Marcela/vector.c' encontrado!
+ - Arquivo esperado 'Respostas/Marcela/vector.h' encontrado!
+ - Arquivos esperados enviados: Faltando!
+
+COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
+ - Pasta agencia:
+ - Copiando os Casos de teste para a pasta Resultados/Marcela/agencia
+ - Copiando os 'Respostas/Marcela/*.h' do aluno para a pasta Resultados/Marcela/agencia
+ - Copiando os 'Includes/*.h' do professor para a pasta Resultados/Marcela/agencia
+ - Copiando os 'Respostas/Marcela/*.c' do aluno para a pasta Resultados/Marcela/agencia
+ - Pasta banco:
+ - Copiando os Casos de teste para a pasta Resultados/Marcela/banco
+ - Copiando os 'Respostas/Marcela/*.h' do aluno para a pasta Resultados/Marcela/banco
+ - Copiando os 'Includes/*.h' do professor para a pasta Resultados/Marcela/banco
+ - Copiando os 'Respostas/Marcela/*.c' do aluno para a pasta Resultados/Marcela/banco
+ - Pasta conta:
+ - Copiando os Casos de teste para a pasta Resultados/Marcela/conta
+ - Copiando os 'Respostas/Marcela/*.h' do aluno para a pasta Resultados/Marcela/conta
+ - Copiando os 'Includes/*.h' do professor para a pasta Resultados/Marcela/conta
+ - Copiando os 'Respostas/Marcela/*.c' do aluno para a pasta Resultados/Marcela/conta
+ - Pasta main:
+ - Copiando os Casos de teste para a pasta Resultados/Marcela/main
+ - Copiando os 'Respostas/Marcela/*.h' do aluno para a pasta Resultados/Marcela/main
+ - Copiando os 'Includes/*.h' do professor para a pasta Resultados/Marcela/main
+ - Copiando os 'Respostas/Marcela/*.c' do aluno para a pasta Resultados/Marcela/main
+ - Pasta vector:
+ - Copiando os Casos de teste para a pasta Resultados/Marcela/vector
+ - Copiando os 'Respostas/Marcela/*.h' do aluno para a pasta Resultados/Marcela/vector
+ - Copiando os 'Includes/*.h' do professor para a pasta Resultados/Marcela/vector
+ - Copiando os 'Respostas/Marcela/*.c' do aluno para a pasta Resultados/Marcela/vector
+ - Pasta completo:
+ - Copiando os Casos de teste para a pasta Resultados/Marcela/completo
+ - Copiando os 'Respostas/Marcela/*.h' do aluno para a pasta Resultados/Marcela/completo
+ - Copiando os 'Respostas/Marcela/*.c' do aluno para a pasta Resultados/Marcela/completo
+ - Arquivos copiados: ok!
+
+COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
+ - Pasta agencia:
+ - Compilando o arquivo agencia.c do aluno, gerando o agencia.o
+ - Compilando o arquivo banco.c do aluno, gerando o banco.o
+ - Erro de compilação! Verifique se o arquivo Resultados/Marcela/agencia/banco.c está correto.
+ - Compilando o arquivo conta.c do aluno, gerando o conta.o
+ - Compilando o arquivo main.c do aluno, gerando o main.o
+ - Erro de compilação! Verifique se o arquivo Resultados/Marcela/agencia/main.c está correto.
+ - Compilando o arquivo vector.c do aluno, gerando o vector.o
+ - Arquivo de output gerado: Resultados/Marcela/agencia/result_compilation.txt.
+ - Pasta banco:
+ - Compilando o arquivo agencia.c do aluno, gerando o agencia.o
+ - Compilando o arquivo banco.c do aluno, gerando o banco.o
+ - Erro de compilação! Verifique se o arquivo Resultados/Marcela/banco/banco.c está correto.
+ - Compilando o arquivo conta.c do aluno, gerando o conta.o
+ - Compilando o arquivo main.c do aluno, gerando o main.o
+ - Erro de compilação! Verifique se o arquivo Resultados/Marcela/banco/main.c está correto.
+ - Compilando o arquivo vector.c do aluno, gerando o vector.o
+ - Arquivo de output gerado: Resultados/Marcela/banco/result_compilation.txt.
+ - Pasta conta:
+ - Compilando o arquivo agencia.c do aluno, gerando o agencia.o
+ - Compilando o arquivo banco.c do aluno, gerando o banco.o
+ - Erro de compilação! Verifique se o arquivo Resultados/Marcela/conta/banco.c está correto.
+ - Compilando o arquivo conta.c do aluno, gerando o conta.o
+ - Compilando o arquivo main.c do aluno, gerando o main.o
+ - Erro de compilação! Verifique se o arquivo Resultados/Marcela/conta/main.c está correto.
+ - Compilando o arquivo vector.c do aluno, gerando o vector.o
+ - Arquivo de output gerado: Resultados/Marcela/conta/result_compilation.txt.
+ - Pasta main:
+ - Compilando o arquivo agencia.c do aluno, gerando o agencia.o
+ - Compilando o arquivo banco.c do aluno, gerando o banco.o
+ - Erro de compilação! Verifique se o arquivo Resultados/Marcela/main/banco.c está correto.
+ - Compilando o arquivo conta.c do aluno, gerando o conta.o
+ - Compilando o arquivo main.c do aluno, gerando o main.o
+ - Erro de compilação! Verifique se o arquivo Resultados/Marcela/main/main.c está correto.
+ - Compilando o arquivo vector.c do aluno, gerando o vector.o
+ - Arquivo de output gerado: Resultados/Marcela/main/result_compilation.txt.
+ - Pasta vector:
+ - Compilando o arquivo agencia.c do aluno, gerando o agencia.o
+ - Compilando o arquivo banco.c do aluno, gerando o banco.o
+ - Erro de compilação! Verifique se o arquivo Resultados/Marcela/vector/banco.c está correto.
+ - Compilando o arquivo conta.c do aluno, gerando o conta.o
+ - Compilando o arquivo main.c do aluno, gerando o main.o
+ - Erro de compilação! Verifique se o arquivo Resultados/Marcela/vector/main.c está correto.
+ - Compilando o arquivo vector.c do aluno, gerando o vector.o
+ - Arquivo de output gerado: Resultados/Marcela/vector/result_compilation.txt.
+ - Pasta completo:
+ - Compilando o arquivo agencia.c do aluno, gerando o agencia.o
+ - Compilando o arquivo banco.c do aluno, gerando o banco.o
+ - Erro de compilação! Verifique se o arquivo Resultados/Marcela/completo/banco.c está correto.
+ - Compilando o arquivo conta.c do aluno, gerando o conta.o
+ - Compilando o arquivo main.c do aluno, gerando o main.o
+ - Erro de compilação! Verifique se o arquivo Resultados/Marcela/completo/main.c está correto.
+ - Compilando o arquivo vector.c do aluno, gerando o vector.o
+ - Arquivo de output gerado: Resultados/Marcela/completo/result_compilation.txt.
+ - Arquivos Compilados: Erro!: 12 arquivos com erros de compilacao.
+ - Copiando os arquivos objetos do professor para cada subpasta do Resultado do Marcela:
+ - Copiando o Gabarito-obj/agencia.o para a pasta Resultados/Marcela/banco
+ - Copiando o Gabarito-obj/agencia.o para a pasta Resultados/Marcela/conta
+ - Copiando o Gabarito-obj/agencia.o para a pasta Resultados/Marcela/main
+ - Copiando o Gabarito-obj/agencia.o para a pasta Resultados/Marcela/vector
+ - Copiando o Gabarito-obj/banco.o para a pasta Resultados/Marcela/agencia
+ - Copiando o Gabarito-obj/banco.o para a pasta Resultados/Marcela/conta
+ - Copiando o Gabarito-obj/banco.o para a pasta Resultados/Marcela/main
+ - Copiando o Gabarito-obj/banco.o para a pasta Resultados/Marcela/vector
+ - Copiando o Gabarito-obj/conta.o para a pasta Resultados/Marcela/agencia
+ - Copiando o Gabarito-obj/conta.o para a pasta Resultados/Marcela/banco
+ - Copiando o Gabarito-obj/conta.o para a pasta Resultados/Marcela/main
+ - Copiando o Gabarito-obj/conta.o para a pasta Resultados/Marcela/vector
+ - Copiando o Gabarito-obj/main.o para a pasta Resultados/Marcela/agencia
+ - Copiando o Gabarito-obj/main.o para a pasta Resultados/Marcela/banco
+ - Copiando o Gabarito-obj/main.o para a pasta Resultados/Marcela/conta
+ - Copiando o Gabarito-obj/main.o para a pasta Resultados/Marcela/vector
+ - Copiando o Gabarito-obj/vector.o para a pasta Resultados/Marcela/agencia
+ - Copiando o Gabarito-obj/vector.o para a pasta Resultados/Marcela/banco
+ - Copiando o Gabarito-obj/vector.o para a pasta Resultados/Marcela/conta
+ - Copiando o Gabarito-obj/vector.o para a pasta Resultados/Marcela/main
+ - Arquivos Compilados: ok!
+
+LINKANDO OS ARQUIVOS COMPILADOS:
+ - Pasta agencia:
+ - Gerando o binário prog linkando com o(s) arquivo(s) agencia/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Marcela/agencia/result_linking.txt
+ - Pasta banco:
+ - Gerando o binário prog linkando com o(s) arquivo(s) banco/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/Marcela/banco/result_linking.txt
+ - Pasta conta:
+ - Gerando o binário prog linkando com o(s) arquivo(s) conta/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Marcela/conta/result_linking.txt
+ - Pasta main:
+ - Gerando o binário prog linkando com o(s) arquivo(s) main/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/Marcela/main/result_linking.txt
+ - Pasta vector:
+ - Gerando o binário prog linkando com o(s) arquivo(s) vector/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Marcela/vector/result_linking.txt
+ - Pasta completo:
+ - Gerando o binário prog linkando com o(s) arquivo(s) completo/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/Marcela/completo/result_linking.txt
+ - Arquivos Linkados: Erro! 3 arquivos com erros de linkagem.
+
+EXECUTANDO O VALGRIND EM CADA CASO:
+ - Pasta agencia / Caso 1:
+ - Arquivo de output gerado: Resultados/Marcela/agencia/Casos/1/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 22, frees: 16, errors: 2.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta agencia / Caso 2:
+ - Arquivo de output gerado: Resultados/Marcela/agencia/Casos/2/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 54, frees: 42, errors: 2.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta agencia / Caso 3:
+ - Arquivo de output gerado: Resultados/Marcela/agencia/Casos/3/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 33, frees: 25, errors: 2.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta banco / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta banco / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta banco / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta conta / Caso 1:
+ - Arquivo de output gerado: Resultados/Marcela/conta/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 56, frees: 56, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta conta / Caso 2:
+ - Arquivo de output gerado: Resultados/Marcela/conta/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 97, frees: 97, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta conta / Caso 3:
+ - Arquivo de output gerado: Resultados/Marcela/conta/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 47, frees: 47, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta main / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta main / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta main / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta vector / Caso 1:
+ - Arquivo de output gerado: Resultados/Marcela/vector/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 25, frees: 25, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta vector / Caso 2:
+ - Arquivo de output gerado: Resultados/Marcela/vector/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 36, frees: 36, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta vector / Caso 3:
+ - Arquivo de output gerado: Resultados/Marcela/vector/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 20, frees: 20, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta completo / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta completo / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta completo / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto!
+
+#######################################
+RESULTADOS FINAIS
+#######################################
+
+----------------------------------------------------------------------------
+Nome 0: Marcela
+ - Arquivos Corretos: 7 de 9 / Nota 7.77
+ - Compilações Corretas: 18 de 30 / Nota 6.00
+ - Linkagens Corretas: 3 de 6 / Nota 5.00
+ - Resultados Corretos agencia: 0 de 3 / Nota 0.00
+ - Valgrinds Corretos agencia: 0 de 3 / Nota 0.00
+ - Resultados Corretos banco: 0 de 3 / Nota 0.00
+ - Valgrinds Corretos banco: 0 de 3 / Nota 0.00
+ - Resultados Corretos conta: 3 de 3 / Nota 10.00
+ - Valgrinds Corretos conta: 3 de 3 / Nota 10.00
+ - Resultados Corretos main: 0 de 3 / Nota 0.00
+ - Valgrinds Corretos main: 0 de 3 / Nota 0.00
+ - Resultados Corretos vector: 3 de 3 / Nota 10.00
+ - Valgrinds Corretos vector: 3 de 3 / Nota 10.00
+ - Resultados Corretos completo: 0 de 3 / Nota 0.00
+ - Valgrinds Corretos completo: 0 de 3 / Nota 0.00
+ - Soma das notas do Marcela: 58.770
+ - Campos Considerados: 15
+ - Média do Marcela: 3.91
+
+----------------------------------------------------------------------------
+
+Arquivo CSV Resultado.csv com os resultados finais foi gerado na pasta raíz!
+
+
