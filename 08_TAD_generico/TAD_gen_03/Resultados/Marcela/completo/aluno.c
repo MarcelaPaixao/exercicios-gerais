@@ -21,7 +21,6 @@ tAluno *CriaAluno(){
         exit(1);
     }
     aluno->nota = 0;
-    //aluno->nome = '\0';
     aluno->genero = '\0';
     return aluno;
 }
@@ -34,7 +33,8 @@ tAluno *CriaAluno(){
 */
 void DestroiAluno(data_type aluno){
     if(aluno != NULL){
-        free((tAluno*)aluno);
+        tAluno *a = aluno;
+        free(a);
     }
 }
 

@@ -1,1 +1,6 @@
-valgrind: Resultados/Marcela/completo/prog: No such file or directory
+Media das notas: 6.57
+Porcentagem de alunos aprovados: 66.67%
+Porcentagem de cada genero:
+Masculino: 50.00%
+Feminino: 50.00%
+Outro: 0.00%

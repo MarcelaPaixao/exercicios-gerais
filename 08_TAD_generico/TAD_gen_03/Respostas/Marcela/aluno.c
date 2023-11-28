@@ -33,7 +33,8 @@ tAluno *CriaAluno(){
 */
 void DestroiAluno(data_type aluno){
     if(aluno != NULL){
-        free((tAluno*)aluno);
+        tAluno *a = aluno;
+        free(a);
     }
 }
 

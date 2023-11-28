@@ -18,12 +18,21 @@ Resultados/Marcela/relatorio/aluno.c:21:9: warning: incompatible implicit declar
 Resultados/Marcela/relatorio/aluno.c:21:9: note: include ‘<stdlib.h>’ or provide a declaration of ‘exit’
 Resultados/Marcela/relatorio/aluno.c: In function ‘DestroiAluno’:
 Resultados/Marcela/relatorio/aluno.c:37:9: warning: implicit declaration of function ‘free’ [-Wimplicit-function-declaration]
-   37 |         free((tAluno*)aluno);
+   37 |         free(a);
       |         ^~~~
 Resultados/Marcela/relatorio/aluno.c:37:9: note: include ‘<stdlib.h>’ or provide a declaration of ‘free’
 Resultados/Marcela/relatorio/aluno.c:37:9: warning: incompatible implicit declaration of built-in function ‘free’ [-Wbuiltin-declaration-mismatch]
 Resultados/Marcela/relatorio/aluno.c:37:9: note: include ‘<stdlib.h>’ or provide a declaration of ‘free’
-cc1: fatal error: Resultados/Marcela/relatorio/main.c: No such file or directory
-compilation terminated.
-cc1: fatal error: Resultados/Marcela/relatorio/relatorio.c: No such file or directory
-compilation terminated.
+Resultados/Marcela/relatorio/relatorio.c: In function ‘ImprimeRelatorio’:
+Resultados/Marcela/relatorio/relatorio.c:34:51: warning: unknown conversion type character ‘\x0a’ in format [-Wformat=]
+   34 |     printf("Porcentagem de alunos aprovados: %.2f%\n", (aprov/total)*100);
+      |                                                   ^~
+Resultados/Marcela/relatorio/relatorio.c:36:29: warning: unknown conversion type character ‘\x0a’ in format [-Wformat=]
+   36 |     printf("Masculino: %.2f%\n", (masc/total)*100);
+      |                             ^~
+Resultados/Marcela/relatorio/relatorio.c:37:28: warning: unknown conversion type character ‘\x0a’ in format [-Wformat=]
+   37 |     printf("Feminino: %.2f%\n", (fem/total)*100);
+      |                            ^~
+Resultados/Marcela/relatorio/relatorio.c:38:25: warning: unknown conversion type character ‘\x0a’ in format [-Wformat=]
+   38 |     printf("Outro: %.2f%\n", (total - masc - fem)/total*100);
+      |                         ^~

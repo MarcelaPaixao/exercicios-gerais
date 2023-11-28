@@ -15,12 +15,12 @@ CRIANDO O DIRETÓRIO DE RESULTADO PARA Marcela:
 CHECKANDO OS ARQUIVOS DO ALUNO:
  - Arquivo esperado 'Respostas/Marcela/aluno.c' encontrado!
  - Arquivo esperado 'Respostas/Marcela/aluno.h' encontrado!
- - Arquivo esperado 'Respostas/Marcela/main.c' não encontrado!
- - Arquivo esperado 'Respostas/Marcela/relatorio.c' não encontrado!
+ - Arquivo esperado 'Respostas/Marcela/main.c' encontrado!
+ - Arquivo esperado 'Respostas/Marcela/relatorio.c' encontrado!
  - Arquivo esperado 'Respostas/Marcela/relatorio.h' encontrado!
  - Arquivo esperado 'Respostas/Marcela/vector.c' encontrado!
  - Arquivo esperado 'Respostas/Marcela/vector.h' encontrado!
- - Arquivos esperados enviados: Faltando!
+ - Arquivos esperados enviados: Ok!
 
 COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
  - Pasta aluno:
@@ -53,44 +53,33 @@ COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
  - Pasta aluno:
  - Compilando o arquivo aluno.c do aluno, gerando o aluno.o
  - Compilando o arquivo main.c do aluno, gerando o main.o
- - Erro de compilação! Verifique se o arquivo Resultados/Marcela/aluno/main.c está correto.
  - Compilando o arquivo relatorio.c do aluno, gerando o relatorio.o
- - Erro de compilação! Verifique se o arquivo Resultados/Marcela/aluno/relatorio.c está correto.
  - Compilando o arquivo vector.c do aluno, gerando o vector.o
  - Arquivo de output gerado: Resultados/Marcela/aluno/result_compilation.txt.
  - Pasta main:
  - Compilando o arquivo aluno.c do aluno, gerando o aluno.o
  - Compilando o arquivo main.c do aluno, gerando o main.o
- - Erro de compilação! Verifique se o arquivo Resultados/Marcela/main/main.c está correto.
  - Compilando o arquivo relatorio.c do aluno, gerando o relatorio.o
- - Erro de compilação! Verifique se o arquivo Resultados/Marcela/main/relatorio.c está correto.
  - Compilando o arquivo vector.c do aluno, gerando o vector.o
  - Arquivo de output gerado: Resultados/Marcela/main/result_compilation.txt.
  - Pasta relatorio:
  - Compilando o arquivo aluno.c do aluno, gerando o aluno.o
  - Compilando o arquivo main.c do aluno, gerando o main.o
- - Erro de compilação! Verifique se o arquivo Resultados/Marcela/relatorio/main.c está correto.
  - Compilando o arquivo relatorio.c do aluno, gerando o relatorio.o
- - Erro de compilação! Verifique se o arquivo Resultados/Marcela/relatorio/relatorio.c está correto.
  - Compilando o arquivo vector.c do aluno, gerando o vector.o
  - Arquivo de output gerado: Resultados/Marcela/relatorio/result_compilation.txt.
  - Pasta vector:
  - Compilando o arquivo aluno.c do aluno, gerando o aluno.o
  - Compilando o arquivo main.c do aluno, gerando o main.o
- - Erro de compilação! Verifique se o arquivo Resultados/Marcela/vector/main.c está correto.
  - Compilando o arquivo relatorio.c do aluno, gerando o relatorio.o
- - Erro de compilação! Verifique se o arquivo Resultados/Marcela/vector/relatorio.c está correto.
  - Compilando o arquivo vector.c do aluno, gerando o vector.o
  - Arquivo de output gerado: Resultados/Marcela/vector/result_compilation.txt.
  - Pasta completo:
  - Compilando o arquivo aluno.c do aluno, gerando o aluno.o
  - Compilando o arquivo main.c do aluno, gerando o main.o
- - Erro de compilação! Verifique se o arquivo Resultados/Marcela/completo/main.c está correto.
  - Compilando o arquivo relatorio.c do aluno, gerando o relatorio.o
- - Erro de compilação! Verifique se o arquivo Resultados/Marcela/completo/relatorio.c está correto.
  - Compilando o arquivo vector.c do aluno, gerando o vector.o
  - Arquivo de output gerado: Resultados/Marcela/completo/result_compilation.txt.
- - Arquivos Compilados: Erro!: 10 arquivos com erros de compilacao.
  - Copiando os arquivos objetos do professor para cada subpasta do Resultado do Marcela:
  - Copiando o Gabarito-obj/aluno.o para a pasta Resultados/Marcela/main
  - Copiando o Gabarito-obj/aluno.o para a pasta Resultados/Marcela/relatorio
@@ -113,11 +102,11 @@ LINKANDO OS ARQUIVOS COMPILADOS:
  - Arquivo de output gerado: Resultados/Marcela/aluno/result_linking.txt
  - Pasta main:
  - Gerando o binário prog linkando com o(s) arquivo(s) main/*.o
- - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
  - Arquivo de output gerado: Resultados/Marcela/main/result_linking.txt
  - Pasta relatorio:
  - Gerando o binário prog linkando com o(s) arquivo(s) relatorio/*.o
- - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
  - Arquivo de output gerado: Resultados/Marcela/relatorio/result_linking.txt
  - Pasta vector:
  - Gerando o binário prog linkando com o(s) arquivo(s) vector/*.o
@@ -125,9 +114,8 @@ LINKANDO OS ARQUIVOS COMPILADOS:
  - Arquivo de output gerado: Resultados/Marcela/vector/result_linking.txt
  - Pasta completo:
  - Gerando o binário prog linkando com o(s) arquivo(s) completo/*.o
- - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
  - Arquivo de output gerado: Resultados/Marcela/completo/result_linking.txt
- - Arquivos Linkados: Erro! 3 arquivos com erros de linkagem.
 
 EXECUTANDO O VALGRIND EM CADA CASO:
  - Pasta aluno / Caso 1:
@@ -143,23 +131,29 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Valgrind: Ok! allocs: 10, frees: 10, errors: 0.
  - Resultado para o saida.txt: Ok!
  - Pasta main / Caso 1:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto!
+ - Arquivo de output gerado: Resultados/Marcela/main/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 8, frees: 8, errors: 0.
+ - Resultado para o saida.txt: Ok!
  - Pasta main / Caso 2:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto!
+ - Arquivo de output gerado: Resultados/Marcela/main/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 9, frees: 9, errors: 0.
+ - Resultado para o saida.txt: Ok!
  - Pasta main / Caso 3:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto!
+ - Arquivo de output gerado: Resultados/Marcela/main/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 10, frees: 10, errors: 0.
+ - Resultado para o saida.txt: Ok!
  - Pasta relatorio / Caso 1:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto!
+ - Arquivo de output gerado: Resultados/Marcela/relatorio/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 8, frees: 8, errors: 0.
+ - Resultado para o saida.txt: Ok!
  - Pasta relatorio / Caso 2:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto!
+ - Arquivo de output gerado: Resultados/Marcela/relatorio/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 9, frees: 9, errors: 0.
+ - Resultado para o saida.txt: Ok!
  - Pasta relatorio / Caso 3:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto!
+ - Arquivo de output gerado: Resultados/Marcela/relatorio/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 10, frees: 10, errors: 0.
+ - Resultado para o saida.txt: Ok!
  - Pasta vector / Caso 1:
  - Arquivo de output gerado: Resultados/Marcela/vector/Casos/1/result_valgrind.txt.
  - Valgrind: Ok! allocs: 11, frees: 11, errors: 0.
@@ -173,14 +167,17 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Valgrind: Ok! allocs: 15, frees: 15, errors: 0.
  - Resultado para o saida.txt: Ok!
  - Pasta completo / Caso 1:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto!
+ - Arquivo de output gerado: Resultados/Marcela/completo/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 11, frees: 11, errors: 0.
+ - Resultado para o saida.txt: Ok!
  - Pasta completo / Caso 2:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto!
+ - Arquivo de output gerado: Resultados/Marcela/completo/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 13, frees: 13, errors: 0.
+ - Resultado para o saida.txt: Ok!
  - Pasta completo / Caso 3:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto!
+ - Arquivo de output gerado: Resultados/Marcela/completo/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 15, frees: 15, errors: 0.
+ - Resultado para o saida.txt: Ok!
 
 #######################################
 RESULTADOS FINAIS
@@ -188,22 +185,22 @@ RESULTADOS FINAIS
 
 ----------------------------------------------------------------------------
 Nome 0: Marcela
- - Arquivos Corretos: 5 de 7 / Nota 7.14
- - Compilações Corretas: 10 de 20 / Nota 5.00
- - Linkagens Corretas: 2 de 5 / Nota 4.00
+ - Arquivos Corretos: 7 de 7 / Nota 10.00
+ - Compilações Corretas: 20 de 20 / Nota 10.00
+ - Linkagens Corretas: 5 de 5 / Nota 10.00
  - Resultados Corretos aluno: 3 de 3 / Nota 10.00
  - Valgrinds Corretos aluno: 3 de 3 / Nota 10.00
- - Resultados Corretos main: 0 de 3 / Nota 0.00
- - Valgrinds Corretos main: 0 de 3 / Nota 0.00
- - Resultados Corretos relatorio: 0 de 3 / Nota 0.00
- - Valgrinds Corretos relatorio: 0 de 3 / Nota 0.00
+ - Resultados Corretos main: 3 de 3 / Nota 10.00
+ - Valgrinds Corretos main: 3 de 3 / Nota 10.00
+ - Resultados Corretos relatorio: 3 de 3 / Nota 10.00
+ - Valgrinds Corretos relatorio: 3 de 3 / Nota 10.00
  - Resultados Corretos vector: 3 de 3 / Nota 10.00
  - Valgrinds Corretos vector: 3 de 3 / Nota 10.00
- - Resultados Corretos completo: 0 de 3 / Nota 0.00
- - Valgrinds Corretos completo: 0 de 3 / Nota 0.00
- - Soma das notas do Marcela: 56.140
+ - Resultados Corretos completo: 3 de 3 / Nota 10.00
+ - Valgrinds Corretos completo: 3 de 3 / Nota 10.00
+ - Soma das notas do Marcela: 130.000
  - Campos Considerados: 13
- - Média do Marcela: 4.31
+ - Média do Marcela: 10.00
 
 ----------------------------------------------------------------------------
 
