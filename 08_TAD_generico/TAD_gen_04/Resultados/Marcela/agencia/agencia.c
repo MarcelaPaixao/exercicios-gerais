@@ -35,7 +35,7 @@ tAgencia *CriaAgencia(){
  */
 void DestroiAgencia(DataType agencia){
     if(agencia != NULL){
-        tAgencia *A = agencia;
+        tAgencia *A = (tAgencia*)agencia;
         VectorDestroy(A->contas, DestroiConta);
         free(A->nome);
         free(A);
@@ -87,7 +87,7 @@ int ComparaAgencia(int numAgencia, tAgencia *agencia2){
  */
 float GetSaldoMedioAgencia (tAgencia *agencia){
     float somat=0;
-    int qtdTotal=VectorSize(agencia);
+    int qtdTotal=VectorSize(agencia->contas);
     for(int i=0; i < qtdTotal; i++){
         somat += GetSaldoConta(VectorGet(agencia->contas, i));
     }
@@ -101,6 +101,6 @@ float GetSaldoMedioAgencia (tAgencia *agencia){
 void ImprimeDadosAgencia(tAgencia *agencia){
     printf("\tNome: %s\n", agencia->nome);
     printf("\tNumero: %d\n", agencia->num);
-    printf("\tNumero de contas cadastradas: %d\n", VectorSize(agencia));
+    printf("\tNumero de contas cadastradas: %d\n", VectorSize(agencia->contas));
     printf("\tSaldo médio: R$%.2f\n", GetSaldoMedioAgencia(agencia));
 }

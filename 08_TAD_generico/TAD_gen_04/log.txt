@@ -152,16 +152,16 @@ LINKANDO OS ARQUIVOS COMPILADOS:
 EXECUTANDO O VALGRIND EM CADA CASO:
  - Pasta agencia / Caso 1:
  - Arquivo de output gerado: Resultados/Marcela/agencia/Casos/1/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 62, frees: 41, errors: 0.
- - Resultado para o saida.txt: Incorreto!
+ - Valgrind: Ok! allocs: 62, frees: 62, errors: 0.
+ - Resultado para o saida.txt: Ok!
  - Pasta agencia / Caso 2:
  - Arquivo de output gerado: Resultados/Marcela/agencia/Casos/2/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 72, frees: 43, errors: 0.
- - Resultado para o saida.txt: Incorreto!
+ - Valgrind: Ok! allocs: 72, frees: 72, errors: 0.
+ - Resultado para o saida.txt: Ok!
  - Pasta agencia / Caso 3:
  - Arquivo de output gerado: Resultados/Marcela/agencia/Casos/3/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 42, frees: 26, errors: 0.
- - Resultado para o saida.txt: Incorreto!
+ - Valgrind: Ok! allocs: 42, frees: 42, errors: 0.
+ - Resultado para o saida.txt: Ok!
  - Pasta banco / Caso 1:
  - Arquivo de output gerado: Resultados/Marcela/banco/Casos/1/result_valgrind.txt.
  - Valgrind: Ok! allocs: 36, frees: 36, errors: 0.
@@ -212,16 +212,16 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o saida.txt: Ok!
  - Pasta completo / Caso 1:
  - Arquivo de output gerado: Resultados/Marcela/completo/Casos/1/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 119, frees: 89, errors: 2.
- - Resultado para o saida.txt: Incorreto!
+ - Valgrind: Ok! allocs: 119, frees: 119, errors: 0.
+ - Resultado para o saida.txt: Ok!
  - Pasta completo / Caso 2:
  - Arquivo de output gerado: Resultados/Marcela/completo/Casos/2/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 160, frees: 118, errors: 2.
- - Resultado para o saida.txt: Incorreto!
+ - Valgrind: Ok! allocs: 160, frees: 160, errors: 0.
+ - Resultado para o saida.txt: Ok!
  - Pasta completo / Caso 3:
  - Arquivo de output gerado: Resultados/Marcela/completo/Casos/3/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 82, frees: 58, errors: 2.
- - Resultado para o saida.txt: Incorreto!
+ - Valgrind: Ok! allocs: 82, frees: 82, errors: 0.
+ - Resultado para o saida.txt: Ok!
 
 #######################################
 RESULTADOS FINAIS
@@ -232,8 +232,8 @@ Nome 0: Marcela
  - Arquivos Corretos: 9 de 9 / Nota 10.00
  - Compilações Corretas: 30 de 30 / Nota 10.00
  - Linkagens Corretas: 6 de 6 / Nota 10.00
- - Resultados Corretos agencia: 0 de 3 / Nota 0.00
- - Valgrinds Corretos agencia: 0 de 3 / Nota 0.00
+ - Resultados Corretos agencia: 3 de 3 / Nota 10.00
+ - Valgrinds Corretos agencia: 3 de 3 / Nota 10.00
  - Resultados Corretos banco: 3 de 3 / Nota 10.00
  - Valgrinds Corretos banco: 3 de 3 / Nota 10.00
  - Resultados Corretos conta: 3 de 3 / Nota 10.00
@@ -242,11 +242,11 @@ Nome 0: Marcela
  - Valgrinds Corretos main: 3 de 3 / Nota 10.00
  - Resultados Corretos vector: 3 de 3 / Nota 10.00
  - Valgrinds Corretos vector: 3 de 3 / Nota 10.00
- - Resultados Corretos completo: 0 de 3 / Nota 0.00
- - Valgrinds Corretos completo: 0 de 3 / Nota 0.00
- - Soma das notas do Marcela: 110.000
+ - Resultados Corretos completo: 3 de 3 / Nota 10.00
+ - Valgrinds Corretos completo: 3 de 3 / Nota 10.00
+ - Soma das notas do Marcela: 150.000
  - Campos Considerados: 15
- - Média do Marcela: 7.33
+ - Média do Marcela: 10.00
 
 ----------------------------------------------------------------------------
 

@@ -1,22 +1,15 @@
-==58197== Memcheck, a memory error detector
-==58197== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
-==58197== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
-==58197== Command: Resultados/Marcela/agencia/prog Resultados/Marcela/agencia/Casos/2
-==58197== Parent PID: 58196
-==58197== 
-==58197== 
-==58197== HEAP SUMMARY:
-==58197==     in use at exit: 1,285 bytes in 29 blocks
-==58197==   total heap usage: 72 allocs, 43 frees, 9,742 bytes allocated
-==58197== 
-==58197== LEAK SUMMARY:
-==58197==    definitely lost: 0 bytes in 0 blocks
-==58197==    indirectly lost: 0 bytes in 0 blocks
-==58197==      possibly lost: 0 bytes in 0 blocks
-==58197==    still reachable: 1,285 bytes in 29 blocks
-==58197==         suppressed: 0 bytes in 0 blocks
-==58197== Reachable blocks (those to which a pointer was found) are not shown.
-==58197== To see them, rerun with: --leak-check=full --show-leak-kinds=all
-==58197== 
-==58197== For lists of detected and suppressed errors, rerun with: -s
-==58197== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==80322== Memcheck, a memory error detector
+==80322== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==80322== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==80322== Command: Resultados/Marcela/agencia/prog Resultados/Marcela/agencia/Casos/2
+==80322== Parent PID: 80321
+==80322== 
+==80322== 
+==80322== HEAP SUMMARY:
+==80322==     in use at exit: 0 bytes in 0 blocks
+==80322==   total heap usage: 72 allocs, 72 frees, 9,742 bytes allocated
+==80322== 
+==80322== All heap blocks were freed -- no leaks are possible
+==80322== 
+==80322== For lists of detected and suppressed errors, rerun with: -s
+==80322== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
