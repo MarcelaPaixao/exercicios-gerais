@@ -1,0 +1,199 @@
+Rodando o script do Aluno - Arquivos header necessários do professor existem na pasta Includes
+ - Arquivos objetos necessários do professor existem na pasta Gabarito-obj.
+#######################################
+ALUNO: Marcela
+#######################################
+CRIANDO O DIRETÓRIO DE RESULTADO PARA Marcela:
+ - Diretório Resultados/Marcela criado com sucesso!
+ - Diretório Resultados/Marcela/gerenciadorpacotes criado com sucesso!
+ - Diretório Resultados/Marcela/main criado com sucesso!
+ - Diretório Resultados/Marcela/pacote criado com sucesso!
+ - Diretório Resultados/Marcela/completo criado com sucesso!
+ - Arquivos criados: ok!
+
+CHECKANDO OS ARQUIVOS DO ALUNO:
+ - Arquivo esperado 'Respostas/Marcela/gerenciadorpacotes.c' encontrado!
+ - Arquivo esperado 'Respostas/Marcela/gerenciadorpacotes.h' encontrado!
+ - Arquivo esperado 'Respostas/Marcela/main.c' encontrado!
+ - Arquivo esperado 'Respostas/Marcela/pacote.c' encontrado!
+ - Arquivo esperado 'Respostas/Marcela/pacote.h' encontrado!
+ - Arquivos esperados enviados: Ok!
+
+COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
+ - Pasta gerenciadorpacotes:
+ - Copiando os Casos de teste para a pasta Resultados/Marcela/gerenciadorpacotes
+ - Copiando os 'Respostas/Marcela/*.h' do aluno para a pasta Resultados/Marcela/gerenciadorpacotes
+ - Copiando os 'Includes/*.h' do professor para a pasta Resultados/Marcela/gerenciadorpacotes
+ - Copiando os 'Respostas/Marcela/*.c' do aluno para a pasta Resultados/Marcela/gerenciadorpacotes
+ - Pasta main:
+ - Copiando os Casos de teste para a pasta Resultados/Marcela/main
+ - Copiando os 'Respostas/Marcela/*.h' do aluno para a pasta Resultados/Marcela/main
+ - Copiando os 'Includes/*.h' do professor para a pasta Resultados/Marcela/main
+ - Copiando os 'Respostas/Marcela/*.c' do aluno para a pasta Resultados/Marcela/main
+ - Pasta pacote:
+ - Copiando os Casos de teste para a pasta Resultados/Marcela/pacote
+ - Copiando os 'Respostas/Marcela/*.h' do aluno para a pasta Resultados/Marcela/pacote
+ - Copiando os 'Includes/*.h' do professor para a pasta Resultados/Marcela/pacote
+ - Copiando os 'Respostas/Marcela/*.c' do aluno para a pasta Resultados/Marcela/pacote
+ - Pasta completo:
+ - Copiando os Casos de teste para a pasta Resultados/Marcela/completo
+ - Copiando os 'Respostas/Marcela/*.h' do aluno para a pasta Resultados/Marcela/completo
+ - Copiando os 'Respostas/Marcela/*.c' do aluno para a pasta Resultados/Marcela/completo
+ - Arquivos copiados: ok!
+
+COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
+ - Pasta gerenciadorpacotes:
+ - Compilando o arquivo gerenciadorpacotes.c do aluno, gerando o gerenciadorpacotes.o
+ - Compilando o arquivo main.c do aluno, gerando o main.o
+ - Compilando o arquivo pacote.c do aluno, gerando o pacote.o
+ - Arquivo de output gerado: Resultados/Marcela/gerenciadorpacotes/result_compilation.txt.
+ - Pasta main:
+ - Compilando o arquivo gerenciadorpacotes.c do aluno, gerando o gerenciadorpacotes.o
+ - Compilando o arquivo main.c do aluno, gerando o main.o
+ - Compilando o arquivo pacote.c do aluno, gerando o pacote.o
+ - Arquivo de output gerado: Resultados/Marcela/main/result_compilation.txt.
+ - Pasta pacote:
+ - Compilando o arquivo gerenciadorpacotes.c do aluno, gerando o gerenciadorpacotes.o
+ - Compilando o arquivo main.c do aluno, gerando o main.o
+ - Compilando o arquivo pacote.c do aluno, gerando o pacote.o
+ - Arquivo de output gerado: Resultados/Marcela/pacote/result_compilation.txt.
+ - Pasta completo:
+ - Compilando o arquivo gerenciadorpacotes.c do aluno, gerando o gerenciadorpacotes.o
+ - Compilando o arquivo main.c do aluno, gerando o main.o
+ - Compilando o arquivo pacote.c do aluno, gerando o pacote.o
+ - Arquivo de output gerado: Resultados/Marcela/completo/result_compilation.txt.
+ - Copiando os arquivos objetos do professor para cada subpasta do Resultado do Marcela:
+ - Copiando o Gabarito-obj/gerenciadorpacotes.o para a pasta Resultados/Marcela/main
+ - Copiando o Gabarito-obj/gerenciadorpacotes.o para a pasta Resultados/Marcela/pacote
+ - Copiando o Gabarito-obj/main.o para a pasta Resultados/Marcela/gerenciadorpacotes
+ - Copiando o Gabarito-obj/main.o para a pasta Resultados/Marcela/pacote
+ - Copiando o Gabarito-obj/pacote.o para a pasta Resultados/Marcela/gerenciadorpacotes
+ - Copiando o Gabarito-obj/pacote.o para a pasta Resultados/Marcela/main
+ - Arquivos Compilados: ok!
+
+LINKANDO OS ARQUIVOS COMPILADOS:
+ - Pasta gerenciadorpacotes:
+ - Gerando o binário prog linkando com o(s) arquivo(s) gerenciadorpacotes/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Marcela/gerenciadorpacotes/result_linking.txt
+ - Pasta main:
+ - Gerando o binário prog linkando com o(s) arquivo(s) main/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Marcela/main/result_linking.txt
+ - Pasta pacote:
+ - Gerando o binário prog linkando com o(s) arquivo(s) pacote/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Marcela/pacote/result_linking.txt
+ - Pasta completo:
+ - Gerando o binário prog linkando com o(s) arquivo(s) completo/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Marcela/completo/result_linking.txt
+
+EXECUTANDO O VALGRIND EM CADA CASO:
+ - Pasta gerenciadorpacotes / Caso 1:
+ - Arquivo de output gerado: Resultados/Marcela/gerenciadorpacotes/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 34, frees: 34, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta gerenciadorpacotes / Caso 2:
+ - Arquivo de output gerado: Resultados/Marcela/gerenciadorpacotes/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 64, frees: 64, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta gerenciadorpacotes / Caso 3:
+ - Arquivo de output gerado: Resultados/Marcela/gerenciadorpacotes/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 4, frees: 4, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta gerenciadorpacotes / Caso 4:
+ - Arquivo de output gerado: Resultados/Marcela/gerenciadorpacotes/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 7, frees: 7, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta gerenciadorpacotes / Caso 5:
+ - Arquivo de output gerado: Resultados/Marcela/gerenciadorpacotes/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 97, frees: 97, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta main / Caso 1:
+ - Arquivo de output gerado: Resultados/Marcela/main/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 24, frees: 24, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta main / Caso 2:
+ - Arquivo de output gerado: Resultados/Marcela/main/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 45, frees: 45, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta main / Caso 3:
+ - Arquivo de output gerado: Resultados/Marcela/main/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 3, frees: 3, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta main / Caso 4:
+ - Arquivo de output gerado: Resultados/Marcela/main/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 6, frees: 6, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta main / Caso 5:
+ - Arquivo de output gerado: Resultados/Marcela/main/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 69, frees: 69, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta pacote / Caso 1:
+ - Arquivo de output gerado: Resultados/Marcela/pacote/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 24, frees: 24, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta pacote / Caso 2:
+ - Arquivo de output gerado: Resultados/Marcela/pacote/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 45, frees: 45, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta pacote / Caso 3:
+ - Arquivo de output gerado: Resultados/Marcela/pacote/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 3, frees: 3, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta pacote / Caso 4:
+ - Arquivo de output gerado: Resultados/Marcela/pacote/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 6, frees: 6, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta pacote / Caso 5:
+ - Arquivo de output gerado: Resultados/Marcela/pacote/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 69, frees: 69, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta completo / Caso 1:
+ - Arquivo de output gerado: Resultados/Marcela/completo/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 34, frees: 34, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta completo / Caso 2:
+ - Arquivo de output gerado: Resultados/Marcela/completo/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 64, frees: 64, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta completo / Caso 3:
+ - Arquivo de output gerado: Resultados/Marcela/completo/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 4, frees: 4, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta completo / Caso 4:
+ - Arquivo de output gerado: Resultados/Marcela/completo/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 7, frees: 7, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta completo / Caso 5:
+ - Arquivo de output gerado: Resultados/Marcela/completo/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 97, frees: 97, errors: 0.
+ - Resultado para o saida.txt: Ok!
+
+#######################################
+RESULTADOS FINAIS
+#######################################
+
+----------------------------------------------------------------------------
+Nome 0: Marcela
+ - Arquivos Corretos: 5 de 5 / Nota 10.00
+ - Compilações Corretas: 12 de 12 / Nota 10.00
+ - Linkagens Corretas: 4 de 4 / Nota 10.00
+ - Resultados Corretos gerenciadorpacotes: 5 de 5 / Nota 10.00
+ - Valgrinds Corretos gerenciadorpacotes: 5 de 5 / Nota 10.00
+ - Resultados Corretos main: 5 de 5 / Nota 10.00
+ - Valgrinds Corretos main: 5 de 5 / Nota 10.00
+ - Resultados Corretos pacote: 5 de 5 / Nota 10.00
+ - Valgrinds Corretos pacote: 5 de 5 / Nota 10.00
+ - Resultados Corretos completo: 5 de 5 / Nota 10.00
+ - Valgrinds Corretos completo: 5 de 5 / Nota 10.00
+ - Soma das notas do Marcela: 110.000
+ - Campos Considerados: 11
+ - Média do Marcela: 10.00
+
+----------------------------------------------------------------------------
+
+Arquivo CSV Resultado.csv com os resultados finais foi gerado na pasta raíz!
+
+

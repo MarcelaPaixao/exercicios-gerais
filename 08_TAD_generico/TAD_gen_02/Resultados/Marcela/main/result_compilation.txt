@@ -1,0 +1,7 @@
+Resultados/Marcela/main/pacote.c: In function ‘LePacote’:
+Resultados/Marcela/main/pacote.c:39:23: warning: format ‘%[^
+   ’ expects argument of type ‘char *’, but argument 2 has type ‘void *’ [-Wformat=]
+   39 |             scanf("%[^\n]%*c", pac->vetor);
+      |                    ~~~^~       ~~~~~~~~~~
+      |                       |           |
+      |                       char *      void *
