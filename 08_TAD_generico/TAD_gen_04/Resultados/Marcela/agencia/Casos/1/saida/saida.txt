@@ -1,1 +1,6 @@
-timeout: the monitored command dumped core
+Banco do Brasil
+Lista de agencias:
+	Nome: Jardim da Penha
+	Numero: 110
+	Numero de contas cadastradas: 78170064
+Error: vector_get: invalid index 2 for vector with size 2.

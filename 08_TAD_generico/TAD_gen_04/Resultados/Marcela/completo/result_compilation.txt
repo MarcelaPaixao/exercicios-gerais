@@ -1,30 +1,6 @@
-Resultados/Marcela/completo/agencia.c: In function ‘DestroiAgencia’:
-Resultados/Marcela/completo/agencia.c:39:23: warning: passing argument 1 of ‘VectorDestroy’ from incompatible pointer type [-Wincompatible-pointer-types]
-   39 |         VectorDestroy(A, DestroiConta);
-      |                       ^
-      |                       |
-      |                       tAgencia * {aka struct Agencia *}
-In file included from Resultados/Marcela/completo/conta.h:3,
-                 from Resultados/Marcela/completo/agencia.h:3,
-                 from Resultados/Marcela/completo/agencia.c:3:
-Resultados/Marcela/completo/vector.h:46:28: note: expected ‘Vector *’ but argument is of type ‘tAgencia *’ {aka ‘struct Agencia *’}
-   46 | void VectorDestroy(Vector *v, void (*destroy)(DataType));
-      |                    ~~~~~~~~^
-Resultados/Marcela/completo/agencia.c: In function ‘AdicionaConta’:
-Resultados/Marcela/completo/agencia.c:71:20: warning: passing argument 1 of ‘VectorPushBack’ from incompatible pointer type [-Wincompatible-pointer-types]
-   71 |     VectorPushBack(agencia, conta);
-      |                    ^~~~~~~
-      |                    |
-      |                    tAgencia * {aka struct Agencia *}
-In file included from Resultados/Marcela/completo/conta.h:3,
-                 from Resultados/Marcela/completo/agencia.h:3,
-                 from Resultados/Marcela/completo/agencia.c:3:
-Resultados/Marcela/completo/vector.h:21:29: note: expected ‘Vector *’ but argument is of type ‘tAgencia *’ {aka ‘struct Agencia *’}
-   21 | void VectorPushBack(Vector *v, DataType val);
-      |                     ~~~~~~~~^
 Resultados/Marcela/completo/agencia.c: In function ‘GetSaldoMedioAgencia’:
-Resultados/Marcela/completo/agencia.c:91:29: warning: passing argument 1 of ‘VectorSize’ from incompatible pointer type [-Wincompatible-pointer-types]
-   91 |     int qtdTotal=VectorSize(agencia);
+Resultados/Marcela/completo/agencia.c:90:29: warning: passing argument 1 of ‘VectorSize’ from incompatible pointer type [-Wincompatible-pointer-types]
+   90 |     int qtdTotal=VectorSize(agencia);
       |                             ^~~~~~~
       |                             |
       |                             tAgencia * {aka struct Agencia *}
@@ -35,18 +11,14 @@ Resultados/Marcela/completo/vector.h:38:24: note: expected ‘Vector *’ but ar
    38 | int VectorSize(Vector *v);
       |                ~~~~~~~~^
 Resultados/Marcela/completo/agencia.c: In function ‘ImprimeDadosAgencia’:
-Resultados/Marcela/completo/agencia.c:105:61: warning: passing argument 1 of ‘VectorSize’ from incompatible pointer type [-Wincompatible-pointer-types]
-  105 |     printf("Numero de contas cadastradas: %d\n", VectorSize(agencia));
-      |                                                             ^~~~~~~
-      |                                                             |
-      |                                                             tAgencia * {aka struct Agencia *}
+Resultados/Marcela/completo/agencia.c:104:63: warning: passing argument 1 of ‘VectorSize’ from incompatible pointer type [-Wincompatible-pointer-types]
+  104 |     printf("\tNumero de contas cadastradas: %d\n", VectorSize(agencia));
+      |                                                               ^~~~~~~
+      |                                                               |
+      |                                                               tAgencia * {aka struct Agencia *}
 In file included from Resultados/Marcela/completo/conta.h:3,
                  from Resultados/Marcela/completo/agencia.h:3,
                  from Resultados/Marcela/completo/agencia.c:3:
 Resultados/Marcela/completo/vector.h:38:24: note: expected ‘Vector *’ but argument is of type ‘tAgencia *’ {aka ‘struct Agencia *’}
    38 | int VectorSize(Vector *v);
       |                ~~~~~~~~^
-cc1: fatal error: Resultados/Marcela/completo/banco.c: No such file or directory
-compilation terminated.
-cc1: fatal error: Resultados/Marcela/completo/main.c: No such file or directory
-compilation terminated.

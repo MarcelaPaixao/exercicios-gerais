@@ -25,7 +25,7 @@ tAgencia *CriaAgencia(){
     }
     agencia->nome = NULL;
     agencia->num = 0;
-    agencia->contas = NULL;
+    agencia->contas = VectorConstruct();
     return agencia;
 }
 
@@ -36,7 +36,7 @@ tAgencia *CriaAgencia(){
 void DestroiAgencia(DataType agencia){
     if(agencia != NULL){
         tAgencia *A = agencia;
-        VectorDestroy(A, DestroiConta);
+        VectorDestroy(A->contas, DestroiConta);
         free(A->nome);
         free(A);
     }
@@ -67,8 +67,7 @@ void LeAgencia(tAgencia *agencia){
  * @param conta A conta bancária a ser adicionada.
  */
 void AdicionaConta(tAgencia *agencia, tConta *conta){
-    (agencia->num)++;
-    VectorPushBack(agencia, conta);
+    VectorPushBack(agencia->contas, conta);
 }
 
 /**
@@ -100,8 +99,8 @@ float GetSaldoMedioAgencia (tAgencia *agencia){
  * @param agencia A agência bancária.
  */
 void ImprimeDadosAgencia(tAgencia *agencia){
-    printf("Nome: %s\n", agencia->nome);
-    printf("Numero: %d\n", agencia->num);
-    printf("Numero de contas cadastradas: %d\n", VectorSize(agencia));
-    printf("Saldo médio: R$%.2f\n", GetSaldoMedioAgencia(agencia));
+    printf("\tNome: %s\n", agencia->nome);
+    printf("\tNumero: %d\n", agencia->num);
+    printf("\tNumero de contas cadastradas: %d\n", VectorSize(agencia));
+    printf("\tSaldo médio: R$%.2f\n", GetSaldoMedioAgencia(agencia));
 }

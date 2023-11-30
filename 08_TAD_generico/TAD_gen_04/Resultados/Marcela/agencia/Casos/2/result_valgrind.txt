@@ -1,50 +1,22 @@
-==105154== Memcheck, a memory error detector
-==105154== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
-==105154== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
-==105154== Command: Resultados/Marcela/agencia/prog Resultados/Marcela/agencia/Casos/2
-==105154== Parent PID: 105153
-==105154== 
-==105154== Invalid free() / delete / delete[] / realloc()
-==105154==    at 0x484B1CF: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==105154==    by 0x484DD6F: realloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==105154==    by 0x109A8F: VectorPushBack (in /home/mcpaixao/exercicios-gerais/08_TAD_generico/TAD_gen_04/Resultados/Marcela/agencia/prog)
-==105154==    by 0x109430: AdicionaConta (in /home/mcpaixao/exercicios-gerais/08_TAD_generico/TAD_gen_04/Resultados/Marcela/agencia/prog)
-==105154==    by 0x10972F: InsereContaBanco (in /home/mcpaixao/exercicios-gerais/08_TAD_generico/TAD_gen_04/Resultados/Marcela/agencia/prog)
-==105154==    by 0x1098EE: main (in /home/mcpaixao/exercicios-gerais/08_TAD_generico/TAD_gen_04/Resultados/Marcela/agencia/prog)
-==105154==  Address 0xdd is not stack'd, malloc'd or (recently) free'd
-==105154== 
-==105154== Invalid write of size 8
-==105154==    at 0x109AB2: VectorPushBack (in /home/mcpaixao/exercicios-gerais/08_TAD_generico/TAD_gen_04/Resultados/Marcela/agencia/prog)
-==105154==    by 0x109430: AdicionaConta (in /home/mcpaixao/exercicios-gerais/08_TAD_generico/TAD_gen_04/Resultados/Marcela/agencia/prog)
-==105154==    by 0x10972F: InsereContaBanco (in /home/mcpaixao/exercicios-gerais/08_TAD_generico/TAD_gen_04/Resultados/Marcela/agencia/prog)
-==105154==    by 0x1098EE: main (in /home/mcpaixao/exercicios-gerais/08_TAD_generico/TAD_gen_04/Resultados/Marcela/agencia/prog)
-==105154==  Address 0x25531c00 is not stack'd, malloc'd or (recently) free'd
-==105154== 
-==105154== 
-==105154== Process terminating with default action of signal 11 (SIGSEGV)
-==105154==  Access not within mapped region at address 0x25531C00
-==105154==    at 0x109AB2: VectorPushBack (in /home/mcpaixao/exercicios-gerais/08_TAD_generico/TAD_gen_04/Resultados/Marcela/agencia/prog)
-==105154==    by 0x109430: AdicionaConta (in /home/mcpaixao/exercicios-gerais/08_TAD_generico/TAD_gen_04/Resultados/Marcela/agencia/prog)
-==105154==    by 0x10972F: InsereContaBanco (in /home/mcpaixao/exercicios-gerais/08_TAD_generico/TAD_gen_04/Resultados/Marcela/agencia/prog)
-==105154==    by 0x1098EE: main (in /home/mcpaixao/exercicios-gerais/08_TAD_generico/TAD_gen_04/Resultados/Marcela/agencia/prog)
-==105154==  If you believe this happened as a result of a stack
-==105154==  overflow in your program's main thread (unlikely but
-==105154==  possible), you can try to increase the size of the
-==105154==  main thread stack using the --main-stacksize= flag.
-==105154==  The main thread stack size used in this run was 8388608.
-==105154== 
-==105154== HEAP SUMMARY:
-==105154==     in use at exit: 4,457 bytes in 13 blocks
-==105154==   total heap usage: 54 allocs, 42 frees, 4,722 bytes allocated
-==105154== 
-==105154== LEAK SUMMARY:
-==105154==    definitely lost: 0 bytes in 0 blocks
-==105154==    indirectly lost: 0 bytes in 0 blocks
-==105154==      possibly lost: 0 bytes in 0 blocks
-==105154==    still reachable: 4,457 bytes in 13 blocks
-==105154==         suppressed: 0 bytes in 0 blocks
-==105154== Reachable blocks (those to which a pointer was found) are not shown.
-==105154== To see them, rerun with: --leak-check=full --show-leak-kinds=all
-==105154== 
-==105154== For lists of detected and suppressed errors, rerun with: -s
-==105154== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)
+==58197== Memcheck, a memory error detector
+==58197== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==58197== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==58197== Command: Resultados/Marcela/agencia/prog Resultados/Marcela/agencia/Casos/2
+==58197== Parent PID: 58196
+==58197== 
+==58197== 
+==58197== HEAP SUMMARY:
+==58197==     in use at exit: 1,285 bytes in 29 blocks
+==58197==   total heap usage: 72 allocs, 43 frees, 9,742 bytes allocated
+==58197== 
+==58197== LEAK SUMMARY:
+==58197==    definitely lost: 0 bytes in 0 blocks
+==58197==    indirectly lost: 0 bytes in 0 blocks
+==58197==      possibly lost: 0 bytes in 0 blocks
+==58197==    still reachable: 1,285 bytes in 29 blocks
+==58197==         suppressed: 0 bytes in 0 blocks
+==58197== Reachable blocks (those to which a pointer was found) are not shown.
+==58197== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==58197== 
+==58197== For lists of detected and suppressed errors, rerun with: -s
+==58197== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
