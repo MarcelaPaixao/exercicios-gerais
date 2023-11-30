@@ -1,0 +1,15 @@
+==78252== Memcheck, a memory error detector
+==78252== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==78252== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==78252== Command: Resultados/Marcela/completo/prog Resultados/Marcela/completo/Casos/4
+==78252== Parent PID: 78251
+==78252== 
+==78252== 
+==78252== HEAP SUMMARY:
+==78252==     in use at exit: 0 bytes in 0 blocks
+==78252==   total heap usage: 4 allocs, 4 frees, 8,608 bytes allocated
+==78252== 
+==78252== All heap blocks were freed -- no leaks are possible
+==78252== 
+==78252== For lists of detected and suppressed errors, rerun with: -s
+==78252== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

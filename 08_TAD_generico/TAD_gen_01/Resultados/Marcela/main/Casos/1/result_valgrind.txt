@@ -1,0 +1,15 @@
+==77177== Memcheck, a memory error detector
+==77177== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==77177== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==77177== Command: Resultados/Marcela/main/prog Resultados/Marcela/main/Casos/1
+==77177== Parent PID: 77176
+==77177== 
+==77177== 
+==77177== HEAP SUMMARY:
+==77177==     in use at exit: 0 bytes in 0 blocks
+==77177==   total heap usage: 4 allocs, 4 frees, 8,228 bytes allocated
+==77177== 
+==77177== All heap blocks were freed -- no leaks are possible
+==77177== 
+==77177== For lists of detected and suppressed errors, rerun with: -s
+==77177== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
